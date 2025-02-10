@@ -1,0 +1,25 @@
+/* carousel */
+.carousel-inner img {
+    max-height: 38rem;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    /* Use the background properties if you want a background image */
+    /* background-image: url("351812593_986888709402388_1045934612620406629_n.jpg");
+    background-color: #cccccc; */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+    filter: blur(8px);
+}
+
+@media (max-width: 600px) {
+    .carousel-inner img {
+        max-height: 20vh;
+        background-size: cover;
+        object-fit: cover;
+        /* Adjust any additional styles as needed for smaller screens */
+    }
+}
