@@ -120,11 +120,9 @@ $res1 = mysqli_query($con, $query1);
 </head>
 
 <body class="bg-dark">
-
     <div class="container">
-        <div class="row mt-5">
+        <div class="row mt-2">
             <div class="column">
-                <div class="card mt-5">
                     <div class="card-header">
                         <h2 class="display-6">Current Events</h2>
                         <span id="closeModal">&times;</span>
@@ -189,7 +187,6 @@ $res1 = mysqli_query($con, $query1);
                     <div class="card-footer">
                         <a onclick="printPage()" href="#" class="btn btn-secondary">Print</a>
                     </div>
-                </div>
             </div>
         </div>
     </div>
