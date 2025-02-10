@@ -119,7 +119,7 @@ $res1 = mysqli_query($con, $query1);
 
 </head>
 
-<body class="bg-dark">
+<body class="bg-info">
     <div class="container">
         <div class="row mt-2">
             <div class="column">
