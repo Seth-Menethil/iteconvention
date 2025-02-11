@@ -543,8 +543,8 @@
 
     <!-- Developer Note -->
     <div class="dev-note">
-      design made with 💜 by Serafin Gazzingan
-      <br>jgazzingan@spup.edu.ph
+      developed with a 💜 by Serafin Gazzingan & Justin Tan
+      <br>jgazzingan@spup.edu.ph | jtan@spup.edu.ph
     </div>
   </footer>
 
