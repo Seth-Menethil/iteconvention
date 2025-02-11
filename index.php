@@ -27,10 +27,10 @@
       <li><a href="#about">About</a></li>
       <li><a href="#schedule">Schedule</a></li>
       <li><a href="#speakers">Speakers</a></li>
-      <li><a href="#previous">Previous</a></li>
+      <li><a href="#previous">Previous Conventions</a></li>
       <li><a href="#competitions">Competitions</a></li>
     </ul>
-    <a href="signup.php" class="btn btn-ticket">Register</a>
+    <a href="signin.php" class="btn btn-ticket">Login</a>
   </nav>
 
 
@@ -371,7 +371,7 @@
       </h2>
       <p class="section-subtitle">
         Register and compete in various challenges!<br>
-        Please <a href="signin.html">log in</a> to register.
+        Please <a href="signin.php">log in</a> to register.
       </p>
       <div class="competition-grid">
         <!-- Competition Card 1: ITE-CON-INNOVATE -->
@@ -382,7 +382,6 @@
           <h3>ITE-CON-INNOVATE</h3>
           <p>A research-based project presentation on tech innovation.</p>
           <div class="button-group">
-            <a href="signin.html" class="register-btn">Register</a>
             <a href="guidelines.html#ite-con" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -395,7 +394,6 @@
           <h3>Mobile Legends</h3>
           <p>Join the ultimate 5v5 tournament!</p>
           <div class="button-group">
-            <a href="signin.html" class="register-btn">Register</a>
             <a href="guidelines.html#mobile-legends" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -408,7 +406,7 @@
           <h3>Tower Building</h3>
           <p>For engineering participants. Test your building skills!</p>
           <div class="button-group">
-            <a href="signin.html" class="register-btn">Register</a>
+            <a href="signin.php" class="register-btn">Register</a>
             <a href="guidelines.html#tower-building" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -421,7 +419,7 @@
           <h3>Bridge Building</h3>
           <p>For engineering participants. Build and test your bridges!</p>
           <div class="button-group">
-            <a href="signin.html" class="register-btn">Register</a>
+            <a href="signin.php" class="register-btn">Register</a>
             <a href="guidelines.html#bridge-building" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -434,7 +432,7 @@
           <h3>Line Follower Robot</h3>
           <p>For Computer Science participants. Build and program a line-following robot!</p>
           <div class="button-group">
-            <a href="signin.html" class="register-btn">Register</a>
+            <a href="signin.php" class="register-btn">Register</a>
             <a href="guidelines.html#line-follower" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -447,7 +445,7 @@
           <h3>Sumobot</h3>
           <p>For Computer Science participants. Battle with your robot!</p>
           <div class="button-group">
-            <a href="signin.html" class="register-btn">Register</a>
+            <a href="signin.php" class="register-btn">Register</a>
             <a href="guidelines.html#sumobot" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -460,7 +458,7 @@
           <h3>Quizbee for Engineering</h3>
           <p>For Civil Engineering participants. Test your knowledge!</p>
           <div class="button-group">
-            <a href="signin.html" class="register-btn">Register</a>
+            <a href="signin.php" class="register-btn">Register</a>
             <a href="guidelines.html#quizbee" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -473,7 +471,7 @@
           <h3>Coding Competition</h3>
           <p>For IT participants. Test your coding skills!</p>
           <div class="button-group">
-            <a href="signin.html" class="register-btn">Register</a>
+            <a href="signin.php" class="register-btn">Register</a>
             <a href="guidelines.html#coding" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>

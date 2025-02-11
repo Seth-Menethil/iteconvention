@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
     $duplicate = mysqli_query($con, "SELECT * FROM participant WHERE user_id='$id' AND program_id='$program_id'");
     if (mysqli_num_rows($duplicate) > 0) {
         echo "<script>alert('Already registered')</script>";
-        echo '<script>window.location.href = "../index.php";</script>';
+        echo '<script>window.location.href = "../main-page.php";</script>';
     } else {
 
         $query = "SELECT * FROM signup WHERE id = '$id'";
@@ -58,10 +58,10 @@ if (isset($_POST['submit'])) {
 
         if ($res2) {
             echo "<script>alert('Registration Successfull.')</script>";
-            echo '<script>window.location.href = "../index.php";</script>';
+            echo '<script>window.location.href = "../main-page.php";</script>';
         } else {
             echo "<script>alert('Error registering participant.')</script>";
-            echo '<script>window.location.href = "../index.php";</script>';
+            echo '<script>window.location.href = "../main-page.php";</script>';
         }
     }
 
@@ -285,7 +285,7 @@ a:hover {
                     onclick="return confirm('This Process Cannot be Reversed. Are you sure you want to continue this Registration ?');"
                     class="btn btn-primary mt-4" <?php echo $disableSubmitButton ? 'disabled' : ''; ?>>Submit</button>
                 <!-- <p>if not registered ! <a href="./signup.html">Sign Up</a></p> -->
-                <p>Go to <a href="../index.php">Home</a></p>
+                <p>Go to <a href="../main-page.php">Home</a></p>
             </form>
         </div>
     </div>
@@ -301,7 +301,7 @@ a:hover {
 
         const closeModal = document.getElementById('closeModal');
         closeModal.addEventListener('click', () => {
-            window.window.location.href = "../index.php";
+            window.window.location.href = "../main-page.php";
 
         });
     </script>

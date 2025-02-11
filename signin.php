@@ -22,7 +22,7 @@ if (isset($_POST['login'])) {
 
       if ($pass == $password && $row['user_type'] == 'admin') {
         $_SESSION['user_id'] = $row['user_id'];
-        header("Location: ./admindash.php");
+        header("Location: views/admindash.php");
         exit();
       } elseif ($pass == $password && $row['user_type'] == 'participant') {
         $_SESSION['user_id'] = $row['user_id'];
@@ -68,8 +68,7 @@ $res2 = mysqli_query($con, $query);
         <button type="submit" name="login" value="login" class="btn btn-primary w-100">Sign In</button>
       </form>
       <div class="links">
-        <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
-        <p><a href="#">Forgot Password?</a></p>
+        <p>Not Registered? <a href="signup.php">Register</a></p>
       </div>
     </div>
   </div>

@@ -2,10 +2,12 @@
 require_once('connection/connection.php'); //connect to the databse
 session_start();
 
-$query = "SELECT * FROM program ORDER BY program_id DESC";
+$query = "SELECT * FROM program 
+WHERE name != 'Regional ITE Convention 2025'
+ORDER BY program_id DESC;";
 $res2 = mysqli_query($con, $query);
 
-if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
+if (!isset($_SESSION['logged_in_index2'])) {
     // Redirect to index2.php if the user hasn't logged in through index2.php
     header('Location: signin.php');
     exit;
@@ -20,6 +22,8 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
     <!-- Include fonts, icons, and CSS resets if you like -->
     <link rel="stylesheet" href="assets/style/main.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="function/logout.js"></script>
+
     <!-- Smooth scroll CSS -->
     <style>
         html {
@@ -40,9 +44,11 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
             <li><a href="#about">About</a></li>
             <li><a href="#schedule">Schedule</a></li>
             <li><a href="#speakers">Speakers</a></li>
-            <li><a href="#previous">Previous Convention</a></li>
+            <li><a href="#previous">Previous Conventions</a></li>
             <li><a href="#competitions">Competitions</a></li>
         </ul>
+        <a href="#" onclick="logout()" class="btn btn-ticket">Logout</a>
+
     </nav>
 
 
@@ -393,7 +399,11 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
                     <h3>ITE-CON-INNOVATE</h3>
                     <p>A research-based project presentation on tech innovation.</p>
                     <div class="button-group">
-                        <a href="signin.html" class="register-btn">Register</a>
+                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                            <input type="hidden" name="program_id" value="40">
+                            <button type="submit" value="Submit" name="register"
+                                class="register-btn">Register</button>
+                        </form>
                         <a href="guidelines.html#ite-con" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
@@ -406,7 +416,11 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
                     <h3>Mobile Legends</h3>
                     <p>Join the ultimate 5v5 tournament!</p>
                     <div class="button-group">
-                        <a href="signin.html" class="register-btn">Register</a>
+                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                            <input type="hidden" name="program_id" value="41">
+                            <button type="submit" value="Submit" name="register"
+                                class="register-btn">Register</button>
+                        </form>
                         <a href="guidelines.html#mobile-legends" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
@@ -419,7 +433,11 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
                     <h3>Tower Building</h3>
                     <p>For engineering participants. Test your building skills!</p>
                     <div class="button-group">
-                        <a href="signin.html" class="register-btn">Register</a>
+                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                            <input type="hidden" name="program_id" value="42">
+                            <button type="submit" value="Submit" name="register"
+                                class="register-btn">Register</button>
+                        </form>
                         <a href="guidelines.html#tower-building" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
@@ -432,7 +450,11 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
                     <h3>Bridge Building</h3>
                     <p>For engineering participants. Build and test your bridges!</p>
                     <div class="button-group">
-                        <a href="signin.html" class="register-btn">Register</a>
+                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                            <input type="hidden" name="program_id" value="43">
+                            <button type="submit" value="Submit" name="register"
+                                class="register-btn">Register</button>
+                        </form>
                         <a href="guidelines.html#bridge-building" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
@@ -445,7 +467,11 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
                     <h3>Line Follower Robot</h3>
                     <p>For Computer Science participants. Build and program a line-following robot!</p>
                     <div class="button-group">
-                        <a href="signin.html" class="register-btn">Register</a>
+                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                            <input type="hidden" name="program_id" value="44">
+                            <button type="submit" value="Submit" name="register"
+                                class="register-btn">Register</button>
+                        </form>
                         <a href="guidelines.html#line-follower" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
@@ -458,7 +484,11 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
                     <h3>Sumobot</h3>
                     <p>For Computer Science participants. Battle with your robot!</p>
                     <div class="button-group">
-                        <a href="signin.html" class="register-btn">Register</a>
+                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                            <input type="hidden" name="program_id" value="45">
+                            <button type="submit" value="Submit" name="register"
+                                class="register-btn">Register</button>
+                        </form>
                         <a href="guidelines.html#sumobot" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
@@ -471,7 +501,11 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
                     <h3>Quizbee for Engineering</h3>
                     <p>For Civil Engineering participants. Test your knowledge!</p>
                     <div class="button-group">
-                        <a href="signin.html" class="register-btn">Register</a>
+                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                            <input type="hidden" name="program_id" value="46">
+                            <button type="submit" value="Submit" name="register"
+                                class="register-btn">Register</button>
+                        </form>
                         <a href="guidelines.html#quizbee" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
@@ -484,7 +518,11 @@ if (!isset($_SESSION['logged_in_index2']) || !$_SESSION['logged_in_index2']) {
                     <h3>Coding Competition</h3>
                     <p>For IT participants. Test your coding skills!</p>
                     <div class="button-group">
-                        <a href="signin.html" class="register-btn">Register</a>
+                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                            <input type="hidden" name="program_id" value="47">
+                            <button type="submit" value="Submit" name="register"
+                                class="register-btn">Register</button>
+                        </form>
                         <a href="guidelines.html#coding" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>

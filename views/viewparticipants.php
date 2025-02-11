@@ -244,14 +244,14 @@ $totalPages = ceil($totalParticipants / $participantsPerPage);
                         <div class="table-responsive">
                             <table id="myTable" class="table table-bordered text-center">
                                 <tr>
-                                    <td class="text-white" style="background-color: #2C3639;"> Full Name </td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Email </td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Contact Number </td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Occupation </td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Year of CyberSummit </td>
-                                    <td class="text-white" style="background-color: #2C3639;"> School/Organization </td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Program Name </td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Edit/Delete </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Full Name</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Email</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Contact</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Occupation</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Year</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> School/Organization</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Event</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Modify</td>
                                 </tr>
                                 <tr>
 

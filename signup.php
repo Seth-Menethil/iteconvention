@@ -26,6 +26,11 @@ if (isset($_POST['signup'])) {
     mysqli_stmt_bind_param($stmt, "ssssss", $name, $email, $contact, $occupation, $school, $pass);
     $insert_result = mysqli_stmt_execute($stmt);
 
+    $insert_query2 = "INSERT INTO participant (name,email,phone,branch,sem,college,user_type,user_id,program_id) VALUES (?,?,?,?,'$currentYear', ?, 'participant', 0, 39)";
+    $stmt2 = mysqli_prepare($con, $insert_query2);
+    mysqli_stmt_bind_param($stmt2, "ssiss", $name, $email, $contact, $occupation, $school);
+    $insert_result2 = mysqli_stmt_execute($stmt2);
+
     if ($insert_result) {
       // Set a session variable for success message
       $_SESSION['signup_success'] = "Signup successful. You can now login.";
@@ -59,7 +64,7 @@ if (isset($_POST['signup'])) {
       <h2>Sign Up</h2>
       <form method="POST">
         <input type="text" class="form-control" placeholder="Full Name" name="name" required>
-        <input type="text" class="form-control" placeholder="Contact No. (Optional)" name="number" required>
+        <input type="text" class="form-control" placeholder="Contact No. (Optional)" name="number">
         <input type="text" class="form-control" placeholder="Occupation (Student, Faculty, Coach etc.)" name="occupation" required>
         <input type="text" class="form-control" placeholder="School / Organization (ex. St. Paul University Philipines)" name="school" required>
 
@@ -71,7 +76,7 @@ if (isset($_POST['signup'])) {
         <button type="submit" value="Signup" name="signup" class="btn btn-primary w-100">Sign Up</button>
       </form>
       <div class="links">
-        <p>Already have an account? <a href="assets/signin.php">Sign In</a></p>
+        <p>Already Registered? <a href="signin.php">Sign In</a></p>
       </div>
     </div>
   </div>
