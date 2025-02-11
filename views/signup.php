@@ -23,7 +23,7 @@ if (isset($_POST['signup'])) {
         // Insert new user into the signup table using prepared statement
         $insert_query = "INSERT INTO signup (name, email, phone, branch, sem, college, password, user_type) VALUES (?, ?, ?, ?, '$currentYear', ?, ?, 'participant')";
         $stmt = mysqli_prepare($con, $insert_query);
-        mysqli_stmt_bind_param($stmt, "ssssss", $name, $email,$contact,$occupation,$school, $pass);
+        mysqli_stmt_bind_param($stmt, "ssssss", $name, $email, $contact, $occupation, $school, $pass);
         $insert_result = mysqli_stmt_execute($stmt);
 
         if ($insert_result) {
@@ -157,9 +157,10 @@ if (isset($_POST['signup'])) {
         }
     </style>
 </head>
+
 <body>
     <!-- Signup Form -->
-       <div class="signupbackground">
+    <div class="signupbackground">
         <span class="closesignup" id="closeModal">&times;</span>
         <form class="mx-auto" id="signupModal" method="POST">
             <h4>Signup</h4>
@@ -210,8 +211,8 @@ if (isset($_POST['signup'])) {
         });
 
         // Check if the success message is set in the session
-     const successMessage = "<?php echo isset($_SESSION['signup_success']) ? $_SESSION['signup_success'] : ''; ?>";
-  if (successMessage) {
+        const successMessage = "<?php echo isset($_SESSION['signup_success']) ? $_SESSION['signup_success'] : ''; ?>";
+        if (successMessage) {
             alert(successMessage);
             // Clear the success message from the session
             <?php unset($_SESSION['signup_success']); ?>

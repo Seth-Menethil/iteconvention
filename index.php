@@ -30,7 +30,7 @@
       <li><a href="#previous">Previous</a></li>
       <li><a href="#competitions">Competitions</a></li>
     </ul>
-    <a href="signup.html" class="btn btn-ticket">Register</a>
+    <a href="signup.php" class="btn btn-ticket">Register</a>
   </nav>
 
 
