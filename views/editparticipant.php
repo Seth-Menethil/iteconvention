@@ -94,12 +94,12 @@ if (isset($_POST['update_participant'])) {
                     <div class="mb-3">
                         <label for="updated_email" class="form-label">Email:</label>
                         <input type="email" class="form-control" id="updated_email" name="updated_email"
-                            value="<?php echo $participant['email']; ?>" required>
+                            value="<?php echo $participant['email']; ?>">
                     </div>
                     <div class="mb-3">
                         <label for="updated_email" class="form-label">Contact:</label>
                         <input type="number" class="form-control" id="updated_phone" name="updated_phone"
-                            value="<?php echo $participant['phone']; ?>" required>
+                            value="<?php echo $participant['phone']; ?>">
                     </div>
                     <div class="mb-3">
                         <label for="updated_email" class="form-label">Occupation:</label>

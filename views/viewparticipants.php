@@ -24,7 +24,7 @@ if (isset($_POST['delete_participant'])) {
         // Failed to delete participant
         echo '<script>alert("Failed to delete participant");</script>';
     }
-}
+} 
 
 $query1 = "SELECT * FROM program";
 $res1 = mysqli_query($con, $query1);
@@ -136,36 +136,6 @@ $totalPages = ceil($totalParticipants / $participantsPerPage);
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<head>
-    <!-- Head content remains unchanged -->
-</head>
-
-<body class="bg-dark">
-    <div class="container">
-        <div class="row mt-2">
-            <div class="column">
-                <div class="card mt-5">
-                    <div class="card-header">
-                        
-                        <h2 class="display-6">Search</h2>
-                        
-
-                        <!-- Search Bar Form -->
-                        <form action="" method="GET" class="d-flex col-6">
-                            <input type="text" name="search" class="form-control me-2" placeholder="Search">
-                            <button type="submit" class="btn btn-outline-success">Search</button>
-                        </form>
-                    </div>
-                    <!-- Remaining HTML content remains unchanged -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Remaining scripts remain unchanged -->
-</body>
-
-</html>
 
     <style>
         .card-header {
@@ -210,32 +180,46 @@ $totalPages = ceil($totalParticipants / $participantsPerPage);
 
 
         .dropdown-item:hover {
-            background-color: red;
+            background-color:dimgray;
             color: white;
         }
-
+        
         @media screen and (max-width: 1205px) {
             body {
                 font-size: 0.7rem;
             }
         }
     </style>
-
 </head>
 
-<body class="bg-dark">
+<body style="background-color: #2C3639;">
     <div class="container">
-        <div class="row mt-5">
+        <div class="row mt-2">
+            <div class="column">
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h2 class="">Search</h2>
+                        <!-- Search Bar Form -->
+                        <form action="" method="GET" class="d-flex col-6">
+                            <input type="text" name="search" class="form-control me-2" placeholder="Search">
+                            <button type="submit" class="btn btn-outline-success">Search</button>
+                        </form>
+                    </div>
+                    <!-- Remaining HTML content remains unchanged -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="column">
                 <div class="card mt-5">
                     <div class="card-header">
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Programs
+                                aria-expanded="false" style="font-size: 18px;">
+                                Events
                             </button>
 
-                            <ul class="dropdown-menu bg-dark">
+                            <ul class="dropdown-menu" style="background-color:#2C3639">
                                 <?php while ($row1 = mysqli_fetch_assoc($res1)) { ?>
                                     <li>
                                         <form action="./admindropdown.php" method="POST">
@@ -253,81 +237,79 @@ $totalPages = ceil($totalParticipants / $participantsPerPage);
                                 <?php } ?>
                             </ul>
                         </div>
-                        <h2 class="display-6" style="margin: 0 auto;">All Participants</h2>
+                        <h2 class="display-5" style="margin: 0 auto;">Participant List</h2>
                         <!-- <span id="closeModal">&times;</span> -->
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
                             <table id="myTable" class="table table-bordered text-center">
                                 <tr>
-                                    <td class="bg-dark text-white"> Full Name </td>
-                                    <td class="bg-dark text-white"> Email </td>
-                                    <td class="bg-dark text-white"> Contact Number </td>
-                                    <td class="bg-dark text-white"> Occupation </td>
-                                    <td class="bg-dark text-white"> Year of CyberSummit </td>
-                                    <td class="bg-dark text-white"> School/Organization </td>
-                                    <td class="bg-dark text-white"> Program Name </td>
-                                    <td class="bg-dark text-white"> Edit/Delete </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Full Name </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Email </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Contact Number </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Occupation </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Year of CyberSummit </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> School/Organization </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Program Name </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Edit/Delete </td>
                                 </tr>
                                 <tr>
 
                                     <?php
                                     while ($row = mysqli_fetch_assoc($res)) {
-                                        ?>
-                                    <tr>
-
-                                        <td>
-                                            <?php echo $row['name']; ?>
-                                        </td>
-                                        <td>
-                                            <?php echo $row['email']; ?>
-                                        </td>
-                                        <td>
-                                            <?php echo $row['phone']; ?>
-                                        </td>
-                                        <td>
-                                            <?php echo $row['branch']; ?>
-                                        </td>
-                                        <td>
-                                            <?php echo $row['sem']; ?>
-                                        </td>
-                                        <td>
-                                            <?php echo $row['college']; ?>
-                                        </td>
-                                        <td>
-                                            <?php
-                                            $user_id = $row['program_id'];
-                                            $query = "SELECT name FROM program WHERE program_id = '$user_id'";
-                                            $res2 = mysqli_query($con, $query);
-
-                                            if ($res2) {
-                                                $program = mysqli_fetch_assoc($res2);
-                                                echo $program['name'];
-                                            }
-
-                                            ?>
-                                        </td>
-
-                                        <td>
-                                            <!-- Form to submit participant ID for deletion with confirmation -->
-                                            <form action="" method="POST"
-                                                onsubmit="return confirm('Are you sure you want to delete this participant data?');">
-                                                <input type="hidden" name="participant_id" value="<?php echo $row['participant_id']; ?>">
-                                                <a href="./editparticipant.php?participant_id=<?php echo $row['participant_id']; ?>" class="btn btn-warning">Edit</a>
-                                                <button type="submit" name="delete_participant" class="btn btn-danger">Delete</button>
-                                            </form>
-
-                                        </td>
-
-
-                                    </tr>
-                                    <!-- ... (previous PHP code) ... -->
-                                    <!-- ... (remaining PHP code) ... -->
-
-                                    <?php
-                                    }
                                     ?>
+                                <tr>
+
+                                    <td>
+                                        <?php echo $row['name']; ?>
+                                    </td>
+                                    <td>
+                                        <?php echo $row['email']; ?>
+                                    </td>
+                                    <td>
+                                        <?php echo $row['phone']; ?>
+                                    </td>
+                                    <td>
+                                        <?php echo $row['branch']; ?>
+                                    </td>
+                                    <td>
+                                        <?php echo $row['sem']; ?>
+                                    </td>
+                                    <td>
+                                        <?php echo $row['college']; ?>
+                                    </td>
+                                    <td>
+                                        <?php
+                                        $user_id = $row['program_id'];
+                                        $query = "SELECT name FROM program WHERE program_id = '$user_id'";
+                                        $res2 = mysqli_query($con, $query);
+
+                                        if ($res2) {
+                                            $program = mysqli_fetch_assoc($res2);
+                                            echo $program['name'];
+                                        }
+
+                                        ?>
+                                    </td>
+
+                                    <td>
+                                        <!-- Form to submit participant ID for deletion with confirmation -->
+                                        <form action="" method="POST"
+                                            onsubmit="return confirm('Are you sure you want to delete this participant data?');">
+                                            <input type="hidden" name="participant_id" value="<?php echo $row['participant_id']; ?>">
+                                            <a href="./editparticipant.php?participant_id=<?php echo $row['participant_id']; ?>" class="btn btn-warning mb-2">Edit</a>
+                                            <button type="submit" name="delete_participant" class="btn btn-danger mb-2">Delete</button>
+                                        </form>
+
+                                    </td>
                                 </tr>
+                                <!-- ... (previous PHP code) ... -->
+                                <!-- ... (remaining PHP code) ... -->
+
+                            <?php
+                                    }
+                            ?>
+                            </tr>
                             </table>
                         </div>
                     </div>
@@ -350,9 +332,9 @@ $totalPages = ceil($totalParticipants / $participantsPerPage);
                                 ?>
                             </ul>
                         </nav>
-                        
+
                     </div>
-    
+
                     <div class="card-footer">
                         <a onclick="exportToExcel('myTable')" class="btn btn-secondary">Export to Excel</a>
                     </div>
@@ -367,17 +349,20 @@ $totalPages = ceil($totalParticipants / $participantsPerPage);
             window.location.href = './admindash.php';
 
         });
-        function exportToExcel(tableId) {
-        var table = document.getElementById(tableId);
-        var html = table.outerHTML;
 
-        var blob = new Blob([html], { type: 'application/vnd.ms-excel' });
-        var a = document.createElement('a');
-        a.href = window.URL.createObjectURL(blob);
-        a.download = 'participantList.xls';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
+        function exportToExcel(tableId) {
+            var table = document.getElementById(tableId);
+            var html = table.outerHTML;
+
+            var blob = new Blob([html], {
+                type: 'application/vnd.ms-excel'
+            });
+            var a = document.createElement('a');
+            a.href = window.URL.createObjectURL(blob);
+            a.download = 'participantList.xls';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
         }
     </script>
 

@@ -151,9 +151,9 @@ if (isset($_POST['signup'])) {
 
         .closesignup {
             position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 20px;
+            top: 15px;
+            right: 15px;
+            font-size: 40px;
             color: #555;
             cursor: pointer;
             transition: color 0.3s ease;
@@ -185,18 +185,18 @@ if (isset($_POST['signup'])) {
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1">Email</label>
-                <input type="email" name="email" class="form-control" required>
+                <input type="email" name="email" class="form-control">
             </div>
             <div class="mb-3 mt-4">
-                <label for="exampleInputName">Contact</label>
-                <input type="text" name="number" class="form-control" required>
+                <label for="exampleInputName">Contact (Optional)</label>
+                <input type="text" name="number" class="form-control">
             </div>
             <div class="mb-3 mt-4">
                 <label for="exampleInputName">Occupation(Student/Faculty/Coach etc.)</label>
                 <input type="text" name="occupation" class="form-control" required>
             </div>
             <div class="mb-3 mt-4">
-                <label for="exampleInputName">School/Organization(ex. SPUP)</label>
+                <label for="exampleInputName">School/Organization (ex. St. Paul University Philippines)</label>
                 <input type="text" name="school" class="form-control" required>
             </div>
             <div class="form-group">

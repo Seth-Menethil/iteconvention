@@ -181,8 +181,8 @@ if (isset($_POST['signup'])) {
                 <input type="text" name="name" class="form-control" required>
             </div>
             <div class="mb-3 mt-4">
-                <label for="exampleInputName">Contact</label>
-                <input type="text" name="number" class="form-control" required>
+                <label for="exampleInputName">Contact (Optional)</label>
+                <input type="text" name="number" class="form-control">
             </div>
             <div class="mb-3 mt-4">
                 <label for="exampleInputName">Occupation(Student/Faculty/Coach etc.)</label>

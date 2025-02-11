@@ -119,26 +119,25 @@ $res1 = mysqli_query($con, $query1);
 
 </head>
 
-<body class="bg-dark">
-
+<body style="background-color: #393E46;">
     <div class="container">
         <div class="row mt-5">
             <div class="column">
-                <div class="card mt-5">
+                <div class="card">
                     <div class="card-header">
-                        <h2 class="display-6">Current Events</h2>
+                        <h2 class="display-6r" style="text-align:center">Current Events</h2>
                         <span id="closeModal">&times;</span>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table class="table table-bordered text-center">
+                            <table class="table table-bordered">
                                 <tr>
-                                    <td class="bg-dark text-white"> Program Name </td>
-                                    <td class="bg-dark text-white"> Date </td>
-                                    <td class="bg-dark text-white"> Time </td>
-                                    <td class="bg-dark text-white"> Venue</td>
-                                    <td class="bg-dark text-white"> Theme</td>
-                                    <td class="bg-dark text-white"> Delete</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Program Name </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Date </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Time </td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Venue</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Theme</td>
+                                    <td class="text-white" style="background-color: #2C3639;"> Delete</td>
                                 </tr>
                                 <tr>
 

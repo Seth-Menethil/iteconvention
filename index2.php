@@ -206,7 +206,7 @@ $res2 = mysqli_query($con, $query);
                         <p>St. Paul University Philippines invites you to be a part of this transformative journey. Explore our resources, stay updated on the latest cyber-trends, and join the conversation to contribute to a more secure and resilient digital world. </p>
                         <p>Together, let us empower ourselves, connect with like-minded individuals, and shape a future where cybersecurity is not just a priority but a shared commitment. </p>
                     </div>
-                    <div class="row" style="background-color: blanchedalmond;">
+                    <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10">
                             <div class="single-caption mb-20">
                                 <div class="caption-icon">
@@ -235,7 +235,7 @@ $res2 = mysqli_query($con, $query);
         </div>
     </section>
     
-    <section id="sectionId" class="pricing-card-area section-padding2" style="background-color: aquamarine;">
+    <section id="sectionId" class="pricing-card-area section-padding2">
         <div class="container">
             <!-- Section Tittle -->
             <div class="row justify-content-center">
