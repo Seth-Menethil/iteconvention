@@ -564,10 +564,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
         </div>
 
         <!-- Developer Note -->
-        <div class="dev-note">
-            design made with 💜 by Serafin Gazzingan
-            <br>jgazzingan@spup.edu.ph
-        </div>
+        <!-- <div class="dev-note">
+        developed with a 💜 by Serafin Gazzingan & Justin Tan
+        <br>jgazzingan@spup.edu.ph | jtan@spup.edu.ph
+        </div> -->
     </footer>
 
 

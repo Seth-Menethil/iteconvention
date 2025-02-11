@@ -542,10 +542,10 @@
     </div>
 
     <!-- Developer Note -->
-    <div class="dev-note">
+    <!-- <div class="dev-note">
       developed with a 💜 by Serafin Gazzingan & Justin Tan
       <br>jgazzingan@spup.edu.ph | jtan@spup.edu.ph
-    </div>
+    </div> -->
   </footer>
 
 
