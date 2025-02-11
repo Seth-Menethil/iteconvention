@@ -192,7 +192,7 @@ $totalPages = ceil($totalParticipants / $participantsPerPage);
     </style>
 </head>
 
-<body style="background-color: #2C3639;">
+<body style="background-color: #343a40;">
     <div class="container">
         <div class="row mt-2">
             <div class="column">
@@ -244,14 +244,14 @@ $totalPages = ceil($totalParticipants / $participantsPerPage);
                         <div class="table-responsive">
                             <table id="myTable" class="table table-bordered text-center">
                                 <tr>
-                                    <td class="text-white" style="background-color: #2C3639;"> Full Name</td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Email</td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Contact</td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Occupation</td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Year</td>
-                                    <td class="text-white" style="background-color: #2C3639;"> School/Organization</td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Event</td>
-                                    <td class="text-white" style="background-color: #2C3639;"> Modify</td>
+                                    <td class="text-white" style="background-color: #343a40;"> Full Name</td>
+                                    <td class="text-white" style="background-color: #343a40;"> Email</td>
+                                    <td class="text-white" style="background-color: #343a40;"> Contact</td>
+                                    <td class="text-white" style="background-color: #343a40;"> Occupation</td>
+                                    <td class="text-white" style="background-color: #343a40;"> Year</td>
+                                    <td class="text-white" style="background-color: #343a40;"> School/Organization</td>
+                                    <td class="text-white" style="background-color: #343a40;"> Event</td>
+                                    <td class="text-white" style="background-color: #343a40;"> Modify</td>
                                 </tr>
                                 <tr>
 
@@ -297,8 +297,8 @@ $totalPages = ceil($totalParticipants / $participantsPerPage);
                                         <form action="" method="POST"
                                             onsubmit="return confirm('Are you sure you want to delete this participant data?');">
                                             <input type="hidden" name="participant_id" value="<?php echo $row['participant_id']; ?>">
-                                            <a href="./editparticipant.php?participant_id=<?php echo $row['participant_id']; ?>" class="btn btn-warning mb-2">Edit</a>
-                                            <button type="submit" name="delete_participant" class="btn btn-danger mb-2">Delete</button>
+                                            <a href="./editparticipant.php?participant_id=<?php echo $row['participant_id']; ?>" class="btn btn-warning mb-2 btn-sm">Edit</a>
+                                            <button type="submit" name="delete_participant" class="btn btn-danger btn-sm mb-2">Delete</button>
                                         </form>
 
                                     </td>

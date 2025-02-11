@@ -399,10 +399,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <h3>ITE-CON-INNOVATE</h3>
                     <p>A research-based project presentation on tech innovation.</p>
                     <div class="button-group">
-                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                        <form action="info.php" method="POST" class="register_form text-center">
                             <input type="hidden" name="program_id" value="40">
                             <button type="submit" value="Submit" name="register"
-                                class="register-btn">Register</button>
+                                class="register-btn">Details</button>
                         </form>
                         <a href="guidelines.html#ite-con" class="guidelines-btn">View Guidelines</a>
                     </div>
@@ -416,10 +416,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <h3>Mobile Legends</h3>
                     <p>Join the ultimate 5v5 tournament!</p>
                     <div class="button-group">
-                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                        <form action="info.php" method="POST" class="register_form text-center">
                             <input type="hidden" name="program_id" value="41">
                             <button type="submit" value="Submit" name="register"
-                                class="register-btn">Register</button>
+                                class="register-btn">Details</button>
                         </form>
                         <a href="guidelines.html#mobile-legends" class="guidelines-btn">View Guidelines</a>
                     </div>
@@ -433,10 +433,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <h3>Tower Building</h3>
                     <p>For engineering participants. Test your building skills!</p>
                     <div class="button-group">
-                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                        <form action="info.php" method="POST" class="register_form text-center">
                             <input type="hidden" name="program_id" value="42">
                             <button type="submit" value="Submit" name="register"
-                                class="register-btn">Register</button>
+                                class="register-btn">Details</button>
                         </form>
                         <a href="guidelines.html#tower-building" class="guidelines-btn">View Guidelines</a>
                     </div>
@@ -450,10 +450,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <h3>Bridge Building</h3>
                     <p>For engineering participants. Build and test your bridges!</p>
                     <div class="button-group">
-                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                        <form action="info.php" method="POST" class="register_form text-center">
                             <input type="hidden" name="program_id" value="43">
                             <button type="submit" value="Submit" name="register"
-                                class="register-btn">Register</button>
+                                class="register-btn">Details</button>
                         </form>
                         <a href="guidelines.html#bridge-building" class="guidelines-btn">View Guidelines</a>
                     </div>
@@ -467,10 +467,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <h3>Line Follower Robot</h3>
                     <p>For Computer Science participants. Build and program a line-following robot!</p>
                     <div class="button-group">
-                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                        <form action="info.php" method="POST" class="register_form text-center">
                             <input type="hidden" name="program_id" value="44">
                             <button type="submit" value="Submit" name="register"
-                                class="register-btn">Register</button>
+                                class="register-btn">Details</button>
                         </form>
                         <a href="guidelines.html#line-follower" class="guidelines-btn">View Guidelines</a>
                     </div>
@@ -484,10 +484,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <h3>Sumobot</h3>
                     <p>For Computer Science participants. Battle with your robot!</p>
                     <div class="button-group">
-                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                        <form action="info.php" method="POST" class="register_form text-center">
                             <input type="hidden" name="program_id" value="45">
                             <button type="submit" value="Submit" name="register"
-                                class="register-btn">Register</button>
+                                class="register-btn">Details</button>
                         </form>
                         <a href="guidelines.html#sumobot" class="guidelines-btn">View Guidelines</a>
                     </div>
@@ -501,10 +501,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <h3>Quizbee for Engineering</h3>
                     <p>For Civil Engineering participants. Test your knowledge!</p>
                     <div class="button-group">
-                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                        <form action="info.php" method="POST" class="register_form text-center">
                             <input type="hidden" name="program_id" value="46">
                             <button type="submit" value="Submit" name="register"
-                                class="register-btn">Register</button>
+                                class="register-btn">Details</button>
                         </form>
                         <a href="guidelines.html#quizbee" class="guidelines-btn">View Guidelines</a>
                     </div>
@@ -518,10 +518,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <h3>Coding Competition</h3>
                     <p>For IT participants. Test your coding skills!</p>
                     <div class="button-group">
-                        <form action="./views/register.php" method="POST" class="register_form text-center">
+                        <form action="info.php" method="POST" class="register_form text-center">
                             <input type="hidden" name="program_id" value="47">
                             <button type="submit" value="Submit" name="register"
-                                class="register-btn">Register</button>
+                                class="register-btn">Details</button>
                         </form>
                         <a href="guidelines.html#coding" class="guidelines-btn">View Guidelines</a>
                     </div>

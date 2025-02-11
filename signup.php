@@ -65,7 +65,12 @@ if (isset($_POST['signup'])) {
       <form method="POST">
         <input type="text" class="form-control" placeholder="Full Name" name="name" required>
         <input type="text" class="form-control" placeholder="Contact No. (Optional)" name="number">
-        <input type="text" class="form-control" placeholder="Occupation (Student, Faculty, Coach etc.)" name="occupation" required>
+        <select class="form-control" name="occupation" id="occupation" required>
+          <option value="">Occupation:</option>
+          <option value="Student">Student</option>
+          <option value="Faculty">Faculty</option>
+          <option value="Professional">Professional</option>
+        </select>
         <input type="text" class="form-control" placeholder="School / Organization (ex. St. Paul University Philipines)" name="school" required>
 
         <input type="email" class="form-control" placeholder="Email" name="email" required>

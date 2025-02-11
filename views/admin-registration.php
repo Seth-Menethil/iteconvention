@@ -8,46 +8,6 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-if (isset($_POST['save'])) {
-    $email = $_POST['email'];
-    $pass = $_POST['pass'];
-    $newpass = $_POST['newpass'];
-    $confpass = $_POST['confpass'];
-
-    // Validate inputs
-    if (empty($email) || empty($pass) || empty($newpass) || empty($confpass)) {
-        echo "<script>alert('Please fill in all fields')</script>";
-    } else {
-        $query = "SELECT * FROM user WHERE email='$email'";
-        $res = mysqli_query($con, $query);
-
-        if ($row = mysqli_fetch_assoc($res)) {
-            $db_password = $row['password'];
-
-            if ($pass == $db_password) {
-
-                if ($newpass == $confpass) {
-
-                    // $hashed_password = password_hash($confpass, PASSWORD_DEFAULT);
-                    $update_query = "UPDATE user SET `pass` = '$confpass' WHERE `email` = '$email'";
-                    $res = mysqli_query($con, $update_query);
-
-                    if ($res) {
-                        echo "<script>alert('Password changed successfully')</script>";
-                    } else {
-                        echo "<script>alert('Password could not be updated')</script>";
-                    }
-                } else {
-                    echo "<script>alert('New password does not match confirmed password')</script>";
-                }
-            } else {
-                echo "<script>alert('Current password does not match')</script>";
-            }
-        } else {
-            echo "<script>alert('Invalid email')</script>";
-        }
-    }
-}
 
 $id = $_SESSION['user_id'];
 $sql = "SELECT username FROM user where user_id = $id";
@@ -129,7 +89,7 @@ $result = mysqli_fetch_assoc($query);
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="admindash.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Participants</p>
                 </a>
@@ -186,17 +146,7 @@ $result = mysqli_fetch_assoc($query);
 
   <div class="content-wrapper">
     <div class="container-fluid">
-        <div class="card" >
-          <div class="card-body mt-2" style=" height:85vh">
-
-            <iframe src="./viewparticipants.php" width="100%" height="100%" style="border:none;">
-          
-            </iframe>
-
-
-          </div>
-          <!-- /.form-box -->
-        </div><!-- /.card -->
+        
     </div>
   </div>
         
