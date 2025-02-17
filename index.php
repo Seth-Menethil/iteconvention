@@ -85,7 +85,7 @@
         </div>
         <div class="info-item">
           <i class="fas fa-calendar-alt info-icon"></i>
-          <p><strong>Date:</strong> April 2, 2024</p>
+          <p><strong>Date:</strong> March 26-28, 2025</p>
         </div>
       </div>
     </div>
