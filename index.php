@@ -328,7 +328,7 @@
       <div class="speakers-grid">
         <!-- Speaker Card 1 -->
         <div class="card">
-          <img src="assets/img/speaker (1).jpg" alt="James Doe" class="card-img">
+          <img src="assets/img/Placeholder.webp" alt="James Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Engr. Eric Jude S. Soliman</h3>
             <p class="card-text">President/CEO</p>
@@ -346,7 +346,7 @@
 
         <!-- Speaker Card 2 -->
         <div class="card">
-          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
+          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Dr. Mary Jane Calagui</h3>
             <p class="card-text">Professor V</p>
@@ -364,7 +364,7 @@
 
         <!-- Speaker Card 3 -->
         <div class="card">
-          <img src="assets/img/speaker (1).jpg" alt="James Doe" class="card-img">
+          <img src="assets/img/Placeholder.webp" alt="James Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Engr. Godofredo T. Avena</h3>
             <p class="card-text">Head of Software Development</p>
@@ -385,7 +385,7 @@
 
         <!-- Speaker Card 4 -->
         <div class="card">
-          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
+          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Dr. Joey Aviles</h3>
             <p class="card-text">Professor</p>
@@ -403,7 +403,7 @@
 
         <!-- Speaker Card 5 -->
         <div class="card">
-          <img src="assets/img/speaker (1).jpg" alt="James Doe" class="card-img">
+          <img src="assets/img/Placeholder.webp" alt="James Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Engr. Kingston S. Dela Cruz</h3>
             <p class="card-text">Department Head </p>
@@ -421,7 +421,7 @@
 
         <!-- Speaker Card 6 -->
         <div class="card">
-          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
+          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
             <p class="card-text">ASEP Past President</p>
@@ -439,7 +439,7 @@
 
         <!-- Speaker Card 7 -->
         <div class="card">
-          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
+          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Engr. Adam C. Abinales, M. ENG., F.ASEP, P.P</h3>
             <p class="card-text">Principal Engineer and Managing Partner</p>
@@ -457,7 +457,7 @@
 
         <!-- Speaker Card 8 -->
         <div class="card">
-          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
+          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Engr. John Paul Dela Rosa</h3>
             <p class="card-text">Principal Engineer & Engineering Consultant</p>
