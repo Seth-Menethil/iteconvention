@@ -102,11 +102,10 @@
       </h2>
       <div class="tabs">
         <button class="tab active" data-day="day1">Day 1<br>(Registration)</button>
-        <button class="tab" data-day="day2">Day 2<br>(Conference)</button>
-        <button class="tab" data-day="day3">Day 3<br>(Closing)</button>
+        <!-- <button class="tab" data-day="day2">Day 2<br>(Conference)</button>
+        <button class="tab" data-day="day3">Day 3<br>(Closing)</button> -->
       </div>
 
-      <!-- Day 1 Schedule -->
       <!-- Day 1 Schedule -->
       <div class="schedule-content active" id="day1">
         <div class="schedule-item">
