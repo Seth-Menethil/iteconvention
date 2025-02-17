@@ -40,7 +40,7 @@
     <div class="hero-content">
       <img src="assets/img/logo_new_main.png" alt="Hero Logo" class="hero-logo" />
       <p>
-        St. Paul University Philippines, Global Center. march 26-28, 2025<br />
+        St. Paul University Philippines, Global Center. <br> March 26-28, 2025<br />
         Join the community, learn new things!
       </p>
       <div class="hero-buttons">
