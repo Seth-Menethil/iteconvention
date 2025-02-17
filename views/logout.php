@@ -9,5 +9,5 @@ session_destroy();
 
 
 // Redirect to the login page or any desired destination after logout
-echo '<script>window.location.href = "index.php";</script>';
+echo '<script>window.location.href = "../index.php";</script>';
 exit;

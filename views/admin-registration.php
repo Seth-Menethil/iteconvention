@@ -45,7 +45,7 @@ $result = mysqli_fetch_assoc($query);
         <a href="#" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../function/logout.php" class="nav-link">Log Out</a>
+        <a href="logout.php" class="nav-link">Log Out</a>
       </li>
     </ul>
   </nav>
@@ -131,7 +131,7 @@ $result = mysqli_fetch_assoc($query);
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../function/logout.php" class="nav-link">
+                <a href="logout.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Logout</p>
                 </a>
