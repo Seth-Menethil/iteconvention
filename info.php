@@ -1,6 +1,7 @@
 <?php
 require_once('connection/connection.php'); //connect to the databse
 session_start();
+$currentYear = date("Y");
 
 if (!isset($_SESSION['logged_in_index2'])) {
     // Redirect to index2.php if the user hasn't logged in through index2.php
@@ -22,6 +23,50 @@ if ($result && mysqli_num_rows($result) > 0) {
     $row = mysqli_fetch_assoc($result);
 }
 
+$id = $_SESSION['user_id'];
+$sql = "SELECT * FROM signup where id = $id";
+$query = mysqli_query($con, $sql);
+$result = mysqli_fetch_assoc($query);
+
+
+if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $branch = $_POST['branch'];
+    $college = $_POST['college'];
+    $program_id = $_SESSION['program_id'];
+
+
+    // Check for existing email or program_id in the participant table
+    $duplicate = mysqli_query($con, "SELECT * FROM participant WHERE user_id='$id' AND program_id='$program_id'");
+    if (mysqli_num_rows($duplicate) > 0) {
+        echo "<script>alert('Already registered')</script>";
+        echo '<script>window.location.href = "./main-page.php";</script>';
+    } else {
+
+        $query = "SELECT * FROM signup WHERE id = '$id'";
+        $res = mysqli_query($con, $query);
+        $row = mysqli_fetch_assoc($res);
+        $user_id = $row['id'];
+        $email = $row['email'];
+
+        // Insert the participant data into the participant table
+        $query = "INSERT INTO participant (name, email, phone, branch, sem, college, user_type, program_id, user_id) VALUES ('$name', '$email', '$phone', '$branch', '$currentYear', '$college', 'participant', '$program_id', '$user_id')";
+        $res2 = mysqli_query($con, $query);
+
+        if ($res2) {
+            echo "<script>alert('Registration Successfull.')</script>";
+            echo '<script>window.location.href = "./main-page.php";</script>';
+        } else {
+            echo "<script>alert('Error registering participant.')</script>";
+            echo '<script>window.location.href = "../main-page.php";</script>';
+        }
+    }
+
+
+} else {
+    echo "<script>Error</script>";
+}
 ?>
 
 <!DOCTYPE html>
@@ -136,21 +181,23 @@ if ($result && mysqli_num_rows($result) > 0) {
                 <div class="modal-content">
                     <span class="close-btn">&times;</span>
                     <h2 style="color:#073854;">Register for the Event</h2>
-                    <form>
+                    <form method="post">
                         <label for="name">Full Name:</label>
-                        <input type="text" id="name" required>
+                        <input type="text" id="name" value="<?= $result['name']; ?>" name="name" required>
 
-                        <label for="email">Contact:</label>
-                        <input type="email" id="email" required>
+                        <input type="hidden" id="contact" value="<?= $result['phone']; ?>" name="phone" required>
 
                         <label for="occupation">Occupation:</label>
-                        <select name="occupation" id="occupation">
+                        <select id="occupation" value="<?= $result['branch']; ?>" name="branch" required>
                             <option value="Student">Student</option>
                             <option value="Faculty">Faculty</option>
                             <option value="Professional">Professional</option>
                         </select>
 
-                        <button type="submit">Submit</button>
+                        <label for="school">School/Organization & Team <br> (Ex. St. Paul University Philippines - Team A):</label>
+                        <input type="text" id="school" value="<?= $result['college']; ?>" name="college" required>
+
+                        <button type="submit" value="submit" name="submit">Submit</button>
                     </form>
                 </div>
             </div>
