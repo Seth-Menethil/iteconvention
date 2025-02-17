@@ -232,7 +232,7 @@
 
         <!-- Speaker Card 2 -->
         <div class="card">
-          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
+          <img src="assets/img/Mary_Jane.jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Dr. Mary Jane Calagui</h3>
             <p class="card-text">Professor V</p>
