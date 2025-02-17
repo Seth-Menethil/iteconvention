@@ -28,7 +28,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#schedule">Schedule</a></li>
       <li><a href="#speakers">Speakers</a></li>
-      <li><a href="#previous">Previous Conventions</a></li>
+      <!-- <li><a href="#previous">Previous Conventions</a></li> -->
       <li><a href="#competitions">Competitions</a></li>
     </ul>
     <a href="signin.php" class="btn btn-ticket">Login</a>
@@ -480,41 +480,41 @@
   <div class="section-divider"></div>
 
   <!-- ======= PREVIOUS CONVENTIONS SECTION ======= -->
-  <br><br>
+  <!-- <br><br>
   <section class="previous-conventions" id="previous">
     <div class="container">
       <h2 class="section-title">
         <img src="assets/img/prev banner.png" alt="Hero Logo" class="banners-about" />
       </h2>
-      <div class="convention-grid">
+      <div class="convention-grid"> -->
         <!-- Convention 1 -->
-        <div class="video-card">
+        <!-- <div class="video-card">
           <iframe src="https://www.youtube.com/embed/kuG3uTCb5a4" frameborder="0" allowfullscreen></iframe>
           <div class="video-info">
             <h3>Convention 2023</h3>
             <p>Relive the highlights of our 2023 convention.</p>
             <a href="https://www.youtube.com/watch?v=kuG3uTCb5a4" target="_blank" class="video-link">Watch Recap →</a>
           </div>
-        </div>
+        </div> -->
 
         <!-- Convention 2 -->
-        <div class="video-card">
+        <!-- <div class="video-card">
           <iframe src="https://www.youtube.com/embed/7BgRbv59hio" frameborder="0" allowfullscreen></iframe>
           <div class="video-info">
             <h3>Convention 2022</h3>
             <p>See what happened in 2022’s exciting event.</p>
             <a href="https://www.youtube.com/watch?v=7BgRbv59hio" target="_blank" class="video-link">Watch Recap →</a>
           </div>
-        </div>
+        </div> -->
 
         <!-- Convention 3 -->
         <!-- Add more video cards as needed -->
-      </div>
+      <!-- </div>
     </div>
-  </section>
+  </section> -->
 
-  <div class="section-divider"></div>
-  <br>
+  <!-- <div class="section-divider"></div>
+  <br> -->
 
   <!-- ======= COMPETITIONS SECTION ======= -->
   <section class="competitions" id="competitions">
