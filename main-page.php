@@ -530,7 +530,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
         </div>
     </section> -->
 
-    <div class="section-divider"></div>
+    <!-- <div class="section-divider"></div> -->
     <br>
 
     <!-- ======= COMPETITIONS SECTION ======= -->
