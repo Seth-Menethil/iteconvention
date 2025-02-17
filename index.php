@@ -216,9 +216,9 @@
         <div class="card">
           <img src="assets/img/speaker (1).jpg" alt="James Doe" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">James Doe</h3>
-            <p class="card-text">Senior Software Developer</p>
-            <p class="card-text">Angular Core Team</p>
+            <h3 class="card-title">Engr. Eric Jude S. Soliman</h3>
+            <p class="card-text">President/CEO</p>
+            <p class="card-text">Hytec Power Inc.</p>
             <a href="james-doe.html" class="card-link">Read more →</a>
           </div>
           <div class="card-footer">
@@ -234,9 +234,9 @@
         <div class="card">
           <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">Sarah Doe</h3>
-            <p class="card-text">Developer Advocate</p>
-            <p class="card-text">Google</p>
+            <h3 class="card-title">Dr. Mary Jane Calagui</h3>
+            <p class="card-text">Professor V</p>
+            <p class="card-text">Cagayan State University- Carig Campus</p>
             <a href="sarah-doe.html" class="card-link">Read more →</a>
           </div>
           <div class="card-footer">
@@ -252,9 +252,12 @@
         <div class="card">
           <img src="assets/img/speaker (1).jpg" alt="James Doe" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">James Doe</h3>
-            <p class="card-text">Senior Software Developer</p>
-            <p class="card-text">Angular Core Team</p>
+            <h3 class="card-title">Engr. Godofredo T. Avena</h3>
+            <p class="card-text">Head of Software Development</p>
+            <p class="card-text">
+                                  Academic Technology-Philippines
+                                  Cambridge University Press and Assessment
+                                </p>
             <a href="james-doe.html" class="card-link">Read more →</a>
           </div>
           <div class="card-footer">
@@ -270,9 +273,9 @@
         <div class="card">
           <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">Sarah Doe</h3>
-            <p class="card-text">Developer Advocate</p>
-            <p class="card-text">Google</p>
+            <h3 class="card-title">Dr. joey Aviles</h3>
+            <p class="card-text">Professor</p>
+            <p class="card-text">Angeles University Foundation</p>
             <a href="sarah-doe.html" class="card-link">Read more →</a>
           </div>
           <div class="card-footer">
@@ -288,9 +291,9 @@
         <div class="card">
           <img src="assets/img/speaker (1).jpg" alt="James Doe" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">James Doe</h3>
-            <p class="card-text">Senior Software Developer</p>
-            <p class="card-text">Angular Core Team</p>
+            <h3 class="card-title">Engr. Kingston S. Dela Cruz</h3>
+            <p class="card-text">Department Head </p>
+            <p class="card-text">Provincial Engineer’s Office</p>
             <a href="james-doe.html" class="card-link">Read more →</a>
           </div>
           <div class="card-footer">
@@ -306,9 +309,45 @@
         <div class="card">
           <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">Sarah Doe</h3>
-            <p class="card-text">Developer Advocate</p>
-            <p class="card-text">Google</p>
+            <h3 class="card-title">JUANITO D. CUNANAN, F.ASEP., F.PICE.</h3>
+            <p class="card-text">ASEP Past President</p>
+            <p class="card-text">ASEP</p>
+            <a href="sarah-doe.html" class="card-link">Read more →</a>
+          </div>
+          <div class="card-footer">
+            <ul class="social-list">
+              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Speaker Card 7 -->
+        <div class="card">
+          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
+          <div class="card-body">
+            <h3 class="card-title">ENGR. ADAM C. ABINALES, M. ENG., F.ASEP, P.P</h3>
+            <p class="card-text">Principal Engineer and Managing Partner</p>
+            <p class="card-text">ABINALES ASSOCIATES Engineers and Consultants</p>
+            <a href="sarah-doe.html" class="card-link">Read more →</a>
+          </div>
+          <div class="card-footer">
+            <ul class="social-list">
+              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Speaker Card 8 -->
+        <div class="card">
+          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
+          <div class="card-body">
+            <h3 class="card-title">Engr. John Paul Dela Rosa</h3>
+            <p class="card-text">Principal Engineer & Engineering Consultant</p>
+            <p class="card-text">Xstructures</p>
             <a href="sarah-doe.html" class="card-link">Read more →</a>
           </div>
           <div class="card-footer">
