@@ -513,8 +513,8 @@
     </div>
   </section> -->
 
-  <!-- <div class="section-divider"></div>
-  <br> -->
+  <div class="section-divider"></div>
+  <br>
 
   <!-- ======= COMPETITIONS SECTION ======= -->
   <section class="competitions" id="competitions">
