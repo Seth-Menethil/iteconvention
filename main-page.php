@@ -58,7 +58,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
         <div class="hero-content">
             <img src="assets/img/logo_new.png" alt="Hero Logo" class="hero-logo" />
             <p>
-                City. Date Range, 2025<br />
+                St. Paul University Philippines, Global Center. <br> March 26-28, 2025<br />
                 Join the community, learn new things!
             </p>
             <div class="hero-buttons">
@@ -504,8 +504,8 @@ if (!isset($_SESSION['logged_in_index2'])) {
                 <img src="assets/img/prev banner.png" alt="Hero Logo" class="banners-about" />
             </h2>
             <div class="convention-grid"> -->
-                <!-- Convention 1 -->
-                <!-- <div class="video-card">
+    <!-- Convention 1 -->
+    <!-- <div class="video-card">
                     <iframe src="https://www.youtube.com/embed/kuG3uTCb5a4" frameborder="0" allowfullscreen></iframe>
                     <div class="video-info">
                         <h3>Convention 2023</h3>
@@ -514,8 +514,8 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     </div>
                 </div> -->
 
-                <!-- Convention 2 -->
-                <!-- <div class="video-card">
+    <!-- Convention 2 -->
+    <!-- <div class="video-card">
                     <iframe src="https://www.youtube.com/embed/7BgRbv59hio" frameborder="0" allowfullscreen></iframe>
                     <div class="video-info">
                         <h3>Convention 2022</h3>
@@ -524,9 +524,9 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     </div>
                 </div> -->
 
-                <!-- Convention 3 -->
-                <!-- Add more video cards as needed -->
-            <!-- </div>
+    <!-- Convention 3 -->
+    <!-- Add more video cards as needed -->
+    <!-- </div>
         </div>
     </section> -->
 
