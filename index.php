@@ -250,7 +250,7 @@
 
         <!-- Speaker Card 3 -->
         <div class="card">
-          <img src="assets/img/speaker (1).jpg" alt="James Doe" class="card-img">
+          <img src="assets/img/Godofredo_Avena.jpg" alt="James Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Engr. Godofredo T. Avena</h3>
             <p class="card-text">Head of Software Development</p>
