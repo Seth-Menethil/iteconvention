@@ -64,7 +64,7 @@
       <!-- About Details -->
       <div class="about-details">
         <div class="about-image">
-          <img src="assets/img/about-image.jpg" alt="About the Conference" />
+          <img src="assets/img/solo.png" alt="About the Conference" />
         </div>
         <div class="about-text">
           <p>
