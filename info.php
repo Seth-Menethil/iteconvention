@@ -22,50 +22,6 @@ if ($result && mysqli_num_rows($result) > 0) {
     $row = mysqli_fetch_assoc($result);
 }
 
-$id = $_SESSION['user_id'];
-$sql = "SELECT * FROM signup where id = $id";
-$query = mysqli_query($con, $sql);
-$result = mysqli_fetch_assoc($query);
-
-
-if (isset($_POST['submit'])) {
-    $name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $branch = $_POST['branch'];
-    $college = $_POST['college'];
-    $program_id = $_SESSION['program_id'];
-
-
-    // Check for existing email or program_id in the participant table
-    $duplicate = mysqli_query($con, "SELECT * FROM participant WHERE user_id='$id' AND program_id='$program_id'");
-    if (mysqli_num_rows($duplicate) > 0) {
-        echo "<script>alert('Already registered')</script>";
-        echo '<script>window.location.href = "../main-page.php";</script>';
-    } else {
-
-        $query = "SELECT * FROM signup WHERE id = '$id'";
-        $res = mysqli_query($con, $query);
-        $row2 = mysqli_fetch_assoc($res);
-        $user_id = $row2['id'];
-        $email = $row2['email'];
-
-        // Insert the participant data into the participant table
-        $query = "INSERT INTO participant (name, email, phone, branch, sem, college, user_type, program_id, user_id) VALUES ('$name', '$email', '$phone', '$branch', '$currentYear', '$college', 'participant', '$program_id', '$user_id')";
-        $res2 = mysqli_query($con, $query);
-
-        if ($res2) {
-            echo "<script>alert('Registration Successfull.')</script>";
-            echo '<script>window.location.href = "../main-page.php";</script>';
-        } else {
-            echo "<script>alert('Error registering participant.')</script>";
-            echo '<script>window.location.href = "../main-page.php";</script>';
-        }
-    }
-
-
-} else {
-    echo "<script>Error</script>";
-}
 ?>
 
 <!DOCTYPE html>
@@ -182,7 +138,7 @@ if (isset($_POST['submit'])) {
                     <h2 style="color:#073854;">Register for the Event</h2>
                     <form>
                         <label for="name">Full Name:</label>
-                        <input type="text" id="name" value="<?php $row2('name')?>" required>
+                        <input type="text" id="name" required>
 
                         <label for="email">Contact:</label>
                         <input type="email" id="email" required>
