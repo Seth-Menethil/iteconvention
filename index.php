@@ -21,7 +21,7 @@
   <!-- Navbar -->
   <nav class="navbar">
     <a href="#home" class="logo">
-      <img src="assets/img/logo_new_main.png" alt="Your Conference Logo">
+      <img src="assets/img/logo_new.png" alt="Your Conference Logo">
     </a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
@@ -38,7 +38,7 @@
   <header class="hero-section" id="home">
     <div class="overlay"></div>
     <div class="hero-content">
-      <img src="assets/img/logo_new_main.png" alt="Hero Logo" class="hero-logo" />
+      <img src="assets/img/logo_new.png" alt="Hero Logo" class="hero-logo" />
       <p>
         St. Paul University Philippines, Global Center. <br> March 26-28, 2025<br />
         Join the community, learn new things!
