@@ -251,6 +251,72 @@
           </div>
         </div>
       </div>
+
+      <!-- Day 2 Schedule -->
+      <div class="schedule-content" id="day2">
+        <div class="schedule-item">
+          <div class="time">08:30 - 09:00</div>
+          <div class="details">
+            <h3>Morning Coffee &amp; Networking</h3>
+            <p>Meet and greet fellow participants.</p>
+            <p><strong>Location:</strong> Networking Lounge</p>
+          </div>
+        </div>
+        <div class="schedule-item">
+          <div class="time">09:00 - 10:00</div>
+          <div class="details">
+            <h3>Session 1: Innovations in Software Development</h3>
+            <p><strong>Speaker:</strong> John Doe</p>
+            <p>Dive into modern development practices and agile methodologies.</p>
+            <p><strong>Location:</strong> Conference Room A</p>
+          </div>
+        </div>
+        <div class="schedule-item">
+          <div class="time">10:00 - 10:30</div>
+          <div class="details">
+            <h3>Break</h3>
+            <p>Refreshments provided.</p>
+            <p><strong>Location:</strong> Expo Area</p>
+          </div>
+        </div>
+        <div class="schedule-item">
+          <div class="time">10:30 - 12:00</div>
+          <div class="details">
+            <h3>Workshop: Hands-on with New Tools</h3>
+            <p>Interactive session exploring the latest software tools.</p>
+            <p><strong>Location:</strong> Workshop Room</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Day 3 Schedule -->
+      <div class="schedule-content" id="day3">
+        <div class="schedule-item">
+          <div class="time">09:00 - 09:30</div>
+          <div class="details">
+            <h3>Morning Recap &amp; Coffee</h3>
+            <p>Reflect on the previous days and enjoy a light breakfast.</p>
+            <p><strong>Location:</strong> Lobby</p>
+          </div>
+        </div>
+        <div class="schedule-item">
+          <div class="time">09:30 - 10:30</div>
+          <div class="details">
+            <h3>Panel Discussion: Industry Leaders</h3>
+            <p>Experts share insights on the state and future of tech.</p>
+            <p><strong>Location:</strong> Main Hall</p>
+          </div>
+        </div>
+        <div class="schedule-item">
+          <div class="time">10:30 - 11:00</div>
+          <div class="details">
+            <h3>Closing Remarks</h3>
+            <p>Final thoughts and thank-yous from the organizers.</p>
+            <p><strong>Location:</strong> Main Hall</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- ======= SPEAKERS SECTION ======= -->
@@ -303,9 +369,9 @@
             <h3 class="card-title">Engr. Godofredo T. Avena</h3>
             <p class="card-text">Head of Software Development</p>
             <p class="card-text">
-              Academic Technology-Philippines
-              Cambridge University Press and Assessment
-            </p>
+                                  Academic Technology-Philippines
+                                  Cambridge University Press and Assessment
+                                </p>
             <a href="james-doe.html" class="card-link">Read more →</a>
           </div>
           <div class="card-footer">
