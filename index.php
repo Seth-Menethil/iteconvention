@@ -309,7 +309,7 @@
         <div class="card">
           <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
+            <h3 class="card-title">Engr. Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
             <p class="card-text">ASEP Past President</p>
             <p class="card-text">ASEP</p>
             <a href="sarah-doe.html" class="card-link">Read more →</a>
@@ -327,9 +327,9 @@
         <div class="card">
           <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">Engr. Adam C. Abinales, M. ENG., F.ASEP, P.P</h3>
+            <h3 class="card-title">Egrn. Adam C. Aninales, M. ENG., F.ASEP, P.P</h3>
             <p class="card-text">Principal Engineer and Managing Partner</p>
-            <p class="card-text">ABINALES ASSOCIATES Engineers and Consultants</p>
+            <p class="card-text">Abinales Associates Engineers and Consultants</p>
             <a href="sarah-doe.html" class="card-link">Read more →</a>
           </div>
           <div class="card-footer">
