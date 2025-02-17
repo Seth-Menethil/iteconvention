@@ -109,144 +109,31 @@
       <!-- Day 1 Schedule -->
       <div class="schedule-content active" id="day1">
         <div class="schedule-item">
-          <div class="time">08:30 - 09:30</div>
+          <div class="time">08:00 - 09:00</div>
           <div class="details">
-            <h3>Eucharistic Celebration</h3>
-            <p><strong>Location:</strong> Our Lady of Chartres Chapel</p>
+            <h3>Registration &amp; Coffee</h3>
+            <p>Pick up your badges and enjoy a warm welcome.</p>
+            <p><strong>Location:</strong> Lobby</p>
           </div>
         </div>
         <div class="schedule-item">
-          <div class="time">09:30 - 12:00</div>
+          <div class="time">09:00 - 09:30</div>
           <div class="details">
-            <h3>Registration</h3>
+            <h3>Welcome Remarks</h3>
+            <p>Opening words from our event coordinator.</p>
             <p><strong>Location:</strong> Main Hall</p>
           </div>
         </div>
         <div class="schedule-item">
-          <div class="time">01:30 - 01:40</div>
+          <div class="time">09:30 - 10:30</div>
           <div class="details">
-            <h3>Opening Prayer</h3>
-            <p><strong>Performed by:</strong> SPUP CHORALE</p>
+            <h3>Keynote: The Future of Tech</h3>
+            <p><strong>Speaker:</strong> Jane Smith</p>
+            <p>Explore emerging trends and innovations in technology.</p>
+            <p><strong>Location:</strong> Auditorium</p>
           </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">01:40 - 01:50</div>
-          <div class="details">
-            <h3>National Anthem</h3>
-            <p><strong>Performed by:</strong> SPUP CHORALE</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">01:50 - 02:00</div>
-          <div class="details">
-            <h3>Intermission Number</h3>
-            <p><strong>Performed by:</strong> Selected Students</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:00 - 02:10</div>
-          <div class="details">
-            <h3>Acknowledgement of Participants</h3>
-            <p><strong>Speaker:</strong> Marifel Grace C. Kummer, DIT</p>
-            <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:10 - 02:20</div>
-          <div class="details">
-            <h3>ITE Convention 2025 Rationale</h3>
-            <p><strong>Speaker:</strong> Sheena G. Gumarang, DIT</p>
-            <p><strong>Position:</strong> Chairman, ITE Convention 2025</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:20 - 02:30</div>
-          <div class="details">
-            <h3>Welcome Address</h3>
-            <p><strong>Speaker:</strong> Sister Merceditas O. Ang, SPC</p>
-            <p><strong>Position:</strong> University President, St. Paul University Philippines</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:30 - 02:40</div>
-          <div class="details">
-            <h3>Introduction of the Keynote Speaker</h3>
-            <p><strong>Speaker:</strong> Ma. Visitacion N. Gumabay, DIT</p>
-            <p><strong>Position:</strong> Program Coordinator for Information Technology</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:40 - 03:10</div>
-          <div class="details">
-            <h3>Keynote Speech</h3>
-            <p><strong>Speaker:</strong> Dr. Julieta M. Paras, CESO III</p>
-            <p><strong>Position:</strong> Director IV, Commission on Higher Education Region 02</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">03:10 - 03:20</div>
-          <div class="details">
-            <h3>Special Message</h3>
-            <p><strong>Speaker:</strong> Engr. Pinky T. Jimenez, PECE, PH.D.</p>
-            <p><strong>Position:</strong> Director IV - Region 2, Department of Information and Communications
-              Technology</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">03:20 - 03:30</div>
-          <div class="details">
-            <h3>Awarding of Certificate of Appreciation</h3>
-            <p><strong>Presented by:</strong> Sister Merceditas O. Ang, SPC & Dr. Agripina Maribbay</p>
-            <p><strong>Positions:</strong> University President & Vice President for Academics, St. Paul University
-              Philippines</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">03:30 - 03:40</div>
-          <div class="details">
-            <h3>Introduction of Plenary Speaker</h3>
-            <p><strong>Speaker:</strong> Engr. Nova R. Domingo, DPA</p>
-            <p><strong>Position:</strong> Faculty, School of Information Technology and Engineering</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">03:40 - 04:10</div>
-          <div class="details">
-            <h3>Topic 1: Artificial Intelligence & Robotics</h3>
-            <p><strong>Speaker:</strong> Engr. Eric Jude S. Soliman</p>
-            <p><strong>Position:</strong> President/CEO, Hytec Power Inc</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">04:10 - 04:20</div>
-          <div class="details">
-            <h3>Awarding of Certificate of Appreciation</h3>
-            <p><strong>Presented by:</strong> Sister Merceditas O. Ang, SPC & Dr. Agripina Maribbay</p>
-            <p><strong>Positions:</strong> University President & Vice President for Academics, St. Paul University
-              Philippines</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">04:20 - 04:30</div>
-          <div class="details">
-            <h3>Introduction of Plenary Speaker</h3>
-            <p><strong>Speaker:</strong> Engr. Christian Cabuatan</p>
-            <p><strong>Position:</strong> Faculty, School of Information Technology and Engineering</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">04:30 - 05:00</div>
-          <div class="details">
-            <h3>Topic 2: Climate Change and Renewable Energy</h3>
-            <p><strong>Speaker:</strong> Dr. Mary Jane Calagui</p>
-            <p><strong>Position:</strong> Professor V, Cagayan State University - Carig Campus</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">05:00 - 05:30</div>
-          <div class="details">
-            <h3>Open Forum</h3>
-            <p><strong>Location:</strong> Main Hall</p>
+          <div class="speaker-img">
+            <img src="assets/img/speaker-2.jpg" alt="Jane Smith">
           </div>
         </div>
       </div>
@@ -345,7 +232,7 @@
 
         <!-- Speaker Card 2 -->
         <div class="card">
-          <img src="assets/img/Mary_Jane.jpg" alt="Sarah Doe" class="card-img">
+          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Dr. Mary Jane Calagui</h3>
             <p class="card-text">Professor V</p>
@@ -363,14 +250,14 @@
 
         <!-- Speaker Card 3 -->
         <div class="card">
-          <img src="assets/img/Godofredo_Avena.jpg" alt="James Doe" class="card-img">
+          <img src="assets/img/speaker (1).jpg" alt="James Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Engr. Godofredo T. Avena</h3>
             <p class="card-text">Head of Software Development</p>
             <p class="card-text">
-              Academic Technology-Philippines
-              Cambridge University Press and Assessment
-            </p>
+                                  Academic Technology-Philippines
+                                  Cambridge University Press and Assessment
+                                </p>
             <a href="james-doe.html" class="card-link">Read more →</a>
           </div>
           <div class="card-footer">
@@ -422,7 +309,11 @@
         <div class="card">
           <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
+<<<<<<< HEAD
+            <h3 class="card-title">Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
+=======
             <h3 class="card-title">Engr. Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
+>>>>>>> 105906998f64be99b72813a18157334e5903d61d
             <p class="card-text">ASEP Past President</p>
             <p class="card-text">ASEP</p>
             <a href="sarah-doe.html" class="card-link">Read more →</a>
@@ -440,7 +331,11 @@
         <div class="card">
           <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
+<<<<<<< HEAD
+            <h3 class="card-title">Engr. Adam C. Abinales, M. ENG., F.ASEP, P.P</h3>
+=======
             <h3 class="card-title">Egrn. Adam C. Aninales, M. ENG., F.ASEP, P.P</h3>
+>>>>>>> 105906998f64be99b72813a18157334e5903d61d
             <p class="card-text">Principal Engineer and Managing Partner</p>
             <p class="card-text">Abinales Associates Engineers and Consultants</p>
             <a href="sarah-doe.html" class="card-link">Read more →</a>
@@ -456,7 +351,7 @@
 
         <!-- Speaker Card 8 -->
         <div class="card">
-          <img src="assets/img/John_Paul_Rosa.jpg" alt="Sarah Doe" class="card-img">
+          <img src="assets/img/speaker (2).jpg" alt="Sarah Doe" class="card-img">
           <div class="card-body">
             <h3 class="card-title">Engr. John Paul Dela Rosa</h3>
             <p class="card-text">Principal Engineer & Engineering Consultant</p>
@@ -536,7 +431,8 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="40">
-              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
             </form>
             <a href="guidelines.html#ite-con" class="guidelines-btn">View Guidelines</a>
           </div>
@@ -552,7 +448,8 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="41">
-              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
             </form>
             <a href="guidelines.html#mobile-legends" class="guidelines-btn">View Guidelines</a>
           </div>
@@ -568,7 +465,8 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="42">
-              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
             </form> <a href="guidelines.html#tower-building" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -583,7 +481,8 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="43">
-              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
             </form>
             <a href="guidelines.html#bridge-building" class="guidelines-btn">View Guidelines</a>
           </div>
@@ -599,7 +498,8 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="44">
-              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
             </form> <a href="guidelines.html#line-follower" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -614,7 +514,8 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="45">
-              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
             </form> <a href="guidelines.html#sumobot" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -629,7 +530,8 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="46">
-              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
             </form> <a href="guidelines.html#quizbee" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -644,7 +546,8 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="47">
-              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
             </form> <a href="guidelines.html#coding" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -715,14 +618,14 @@
   </script>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
       // Hide navbar on scroll down past hero and show on scroll up
       let lastScrollTop = 0;
       const heroSection = document.querySelector('.hero-section');
       const heroHeight = heroSection ? heroSection.offsetHeight : 0;
       const navbar = document.querySelector('.navbar');
 
-      window.addEventListener('scroll', function () {
+      window.addEventListener('scroll', function() {
         let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
         // If we've scrolled past the hero section and we're scrolling down...
         if (currentScrollTop > heroHeight && currentScrollTop > lastScrollTop) {
