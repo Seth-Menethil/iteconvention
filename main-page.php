@@ -38,7 +38,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
     <!-- Navbar -->
     <nav class="navbar">
         <a href="#home" class="logo">
-            <img src="assets/img/logo_new" alt="Your Conference Logo">
+            <img src="assets/img/logo_new.png" alt="Your Conference Logo">
         </a>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -56,7 +56,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
     <header class="hero-section" id="home">
         <div class="overlay"></div>
         <div class="hero-content">
-            <img src="assets/img/logo.png" alt="Hero Logo" class="hero-logo" />
+            <img src="assets/img/logo_new.png" alt="Hero Logo" class="hero-logo" />
             <p>
                 City. Date Range, 2025<br />
                 Join the community, learn new things!
