@@ -114,7 +114,7 @@ if (isset($_POST['submit'])) {
             <div class="event-details">
                 <div class="event-header">
                     <h1 class="event-title"><?php echo $row['name']; ?></h1>
-                    <p class="event-subtitle">Event Subtitle or Tagline</p>
+                    <!-- <p class="event-subtitle">Event Subtitle or Tagline</p> -->
                 </div>
 
                 <button class="register-btn">Register Now</button>
