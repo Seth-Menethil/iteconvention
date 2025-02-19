@@ -99,6 +99,7 @@
   <section id="schedule" class="schedule-section">
     <div class="container">
       <h2 class="section-title">
+        <br><br>
         <img src="assets/img/sched banner.png" alt="Hero Logo" class="banners-speaker" />
       </h2>
       <div class="tabs">
@@ -327,10 +328,8 @@
       <img src="assets/img/speaker banner.png" alt="Hero Logo" class="banners-speaker" />
     </h2>
     <p class="speakers-description">
-      Meet the VDS speakers, international leaders, and distinguished
-      personalities participating in this international tech event.
+      Meet the ITE Con 2025 speakers participating in this regional convention.
     </p>
-
 
     <div class="carousel-container">
       <div class="carousel">
