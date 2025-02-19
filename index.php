@@ -320,7 +320,7 @@
       </div>
     </div>
   </section>
-
+  <div class="section-divider"></div>
   <!-- ======= SPEAKERS SECTION ======= -->
   <section class="speakers-section">
     <h2 class="section-title">

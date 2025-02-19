@@ -343,7 +343,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
             </div>
         </div>
     </section>
-
+    <div class="section-divider"></div>
     <!-- ======= SPEAKERS SECTION ======= -->
     <section class="speakers" id="speakers">
         <div class="container">

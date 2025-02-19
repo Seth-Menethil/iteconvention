@@ -105,6 +105,24 @@ body {
   justify-content: center;
   text-align: center;
   color: #073854;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 2%,
+    /* Start fading slightly near the edge */ rgba(0, 0, 0, 1) 12%,
+    /* Full visibility starts sooner */ rgba(0, 0, 0, 1) 88%,
+    /* Full visibility ends sooner */ rgba(0, 0, 0, 0) 98% /* Fade out just before the bottom */
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 2%,
+    rgba(0, 0, 0, 1) 12%,
+    rgba(0, 0, 0, 1) 88%,
+    rgba(0, 0, 0, 0) 98%
+  );
+
+  /* Ensures Firefox supports this effect */
+  mask-composite: exclude;
+  -webkit-mask-composite: exclude;
 }
 
 .hero-content h1 {
@@ -318,7 +336,7 @@ body {
   margin: 0 auto 60px;
   line-height: 1.6;
   font-size: 1.5rem;
-  color: #073E5E;
+  color: #073e5e;
 }
 
 .carousel-container {
@@ -862,6 +880,7 @@ body {
 .schedule-section {
   padding: 4rem 2rem;
   background-color: #f9f9f9;
+  background: url("../img/bg_prev.png") center center / cover no-repeat;
 }
 
 .schedule-section .section-title {
