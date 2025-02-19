@@ -95,45 +95,6 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
-/* Hero Section */
-.hero-section {
-  height: 90vh;
-  background: url("../img/hero.png") no-repeat center center/cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #073854;
-  mask-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 2%,
-    /* Start fading slightly near the edge */ rgba(0, 0, 0, 1) 12%,
-    /* Full visibility starts sooner */ rgba(0, 0, 0, 1) 88%,
-    /* Full visibility ends sooner */ rgba(0, 0, 0, 0) 98% /* Fade out just before the bottom */
-  );
-  -webkit-mask-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 2%,
-    rgba(0, 0, 0, 1) 12%,
-    rgba(0, 0, 0, 1) 88%,
-    rgba(0, 0, 0, 0) 98%
-  );
-
-  /* Ensures Firefox supports this effect */
-  mask-composite: exclude;
-  -webkit-mask-composite: exclude;
-}
-
-.hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.hero-content p {
-  font-size: 1.5rem;
-}
-
 /* Mobile Styles */
 @media (max-width: 500px) {
   .nav-toggle {
@@ -172,16 +133,41 @@ body {
    HERO SECTION
 ===================================== */
 .hero-section {
-  position: relative;
   height: 90vh;
   background: url("../img/hero.png") no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  overflow: hidden;
+  color: #073854;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 2%,
+    /* Start fading slightly near the edge */ rgba(0, 0, 0, 1) 12%,
+    /* Full visibility starts sooner */ rgba(0, 0, 0, 1) 88%,
+    /* Full visibility ends sooner */ rgba(0, 0, 0, 0) 98% /* Fade out just before the bottom */
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 2%,
+    rgba(0, 0, 0, 1) 12%,
+    rgba(0, 0, 0, 1) 88%,
+    rgba(0, 0, 0, 0) 98%
+  );
+
+  /* Ensures Firefox supports this effect */
+  mask-composite: exclude;
+  -webkit-mask-composite: exclude;
 }
 
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+}
 .hero-section p {
   font-size: 1.5rem;
   margin-bottom: 1rem;
