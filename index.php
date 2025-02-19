@@ -107,212 +107,214 @@
         <button class="tab" data-day="day3">Day 3<br>(Closing)</button> -->
       </div>
 
-      <!-- Day 1 Schedule -->
-      <div class="schedule-content active" id="day1">
-        <div class="schedule-item">
-          <div class="time">08:30 - 09:30</div>
-          <div class="details">
-            <h3>Eucharistic Celebration</h3>
-            <p><strong>Location:</strong> Our Lady of Chartres Chapel</p>
+      <div class="schedule-container">
+        <!-- Day 1 Schedule -->
+        <div class="schedule-content active" id="day1">
+          <div class="schedule-item">
+            <div class="time">08:30 - 09:30</div>
+            <div class="details">
+              <h3>Eucharistic Celebration</h3>
+              <p><strong>Location:</strong> Our Lady of Chartres Chapel</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">09:30 - 12:00</div>
+            <div class="details">
+              <h3>Registration</h3>
+              <p><strong>Location:</strong> Main Hall</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">01:30 - 01:40</div>
+            <div class="details">
+              <h3>Opening Prayer</h3>
+              <p><strong>Performed by:</strong> SPUP CHORALE</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">01:40 - 01:50</div>
+            <div class="details">
+              <h3>National Anthem</h3>
+              <p><strong>Performed by:</strong> SPUP CHORALE</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">01:50 - 02:00</div>
+            <div class="details">
+              <h3>Intermission Number</h3>
+              <p><strong>Performed by:</strong> Selected Students</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">02:00 - 02:10</div>
+            <div class="details">
+              <h3>Acknowledgement of Participants</h3>
+              <p><strong>Speaker:</strong> Marifel Grace C. Kummer, DIT</p>
+              <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">02:10 - 02:20</div>
+            <div class="details">
+              <h3>ITE Convention 2025 Rationale</h3>
+              <p><strong>Speaker:</strong> Sheena G. Gumarang, DIT</p>
+              <p><strong>Position:</strong> Chairman, ITE Convention 2025</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">02:20 - 02:30</div>
+            <div class="details">
+              <h3>Welcome Address</h3>
+              <p><strong>Speaker:</strong> Sister Merceditas O. Ang, SPC</p>
+              <p><strong>Position:</strong> University President, St. Paul University Philippines</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">02:30 - 02:40</div>
+            <div class="details">
+              <h3>Introduction of the Keynote Speaker</h3>
+              <p><strong>Speaker:</strong> Ma. Visitacion N. Gumabay, DIT</p>
+              <p><strong>Position:</strong> Program Coordinator for Information Technology</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">02:40 - 03:10</div>
+            <div class="details">
+              <h3>Keynote Speech</h3>
+              <p><strong>Speaker:</strong> Dr. Julieta M. Paras, CESO III</p>
+              <p><strong>Position:</strong> Director IV, Commission on Higher Education Region 02</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">03:10 - 03:20</div>
+            <div class="details">
+              <h3>Special Message</h3>
+              <p><strong>Speaker:</strong> Engr. Pinky T. Jimenez, PECE, PH.D.</p>
+              <p><strong>Position:</strong> Director IV - Region 2, Department of Information and Communications
+                Technology</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">03:20 - 03:30</div>
+            <div class="details">
+              <h3>Awarding of Certificate of Appreciation</h3>
+              <p><strong>Presented by:</strong> Sister Merceditas O. Ang, SPC & Dr. Agripina Maribbay</p>
+              <p><strong>Positions:</strong> University President & Vice President for Academics, St. Paul University
+                Philippines</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">03:30 - 03:40</div>
+            <div class="details">
+              <h3>Introduction of Plenary Speaker</h3>
+              <p><strong>Speaker:</strong> Engr. Nova R. Domingo, DPA</p>
+              <p><strong>Position:</strong> Faculty, School of Information Technology and Engineering</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">03:40 - 04:10</div>
+            <div class="details">
+              <h3>Topic 1: Artificial Intelligence & Robotics</h3>
+              <p><strong>Speaker:</strong> Engr. Eric Jude S. Soliman</p>
+              <p><strong>Position:</strong> President/CEO, Hytec Power Inc</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">04:10 - 04:20</div>
+            <div class="details">
+              <h3>Awarding of Certificate of Appreciation</h3>
+              <p><strong>Presented by:</strong> Sister Merceditas O. Ang, SPC & Dr. Agripina Maribbay</p>
+              <p><strong>Positions:</strong> University President & Vice President for Academics, St. Paul University
+                Philippines</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">04:20 - 04:30</div>
+            <div class="details">
+              <h3>Introduction of Plenary Speaker</h3>
+              <p><strong>Speaker:</strong> Engr. Christian Cabuatan</p>
+              <p><strong>Position:</strong> Faculty, School of Information Technology and Engineering</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">04:30 - 05:00</div>
+            <div class="details">
+              <h3>Topic 2: Climate Change and Renewable Energy</h3>
+              <p><strong>Speaker:</strong> Dr. Mary Jane Calagui</p>
+              <p><strong>Position:</strong> Professor V, Cagayan State University - Carig Campus</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">05:00 - 05:30</div>
+            <div class="details">
+              <h3>Open Forum</h3>
+              <p><strong>Location:</strong> Main Hall</p>
+            </div>
           </div>
         </div>
-        <div class="schedule-item">
-          <div class="time">09:30 - 12:00</div>
-          <div class="details">
-            <h3>Registration</h3>
-            <p><strong>Location:</strong> Main Hall</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">01:30 - 01:40</div>
-          <div class="details">
-            <h3>Opening Prayer</h3>
-            <p><strong>Performed by:</strong> SPUP CHORALE</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">01:40 - 01:50</div>
-          <div class="details">
-            <h3>National Anthem</h3>
-            <p><strong>Performed by:</strong> SPUP CHORALE</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">01:50 - 02:00</div>
-          <div class="details">
-            <h3>Intermission Number</h3>
-            <p><strong>Performed by:</strong> Selected Students</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:00 - 02:10</div>
-          <div class="details">
-            <h3>Acknowledgement of Participants</h3>
-            <p><strong>Speaker:</strong> Marifel Grace C. Kummer, DIT</p>
-            <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:10 - 02:20</div>
-          <div class="details">
-            <h3>ITE Convention 2025 Rationale</h3>
-            <p><strong>Speaker:</strong> Sheena G. Gumarang, DIT</p>
-            <p><strong>Position:</strong> Chairman, ITE Convention 2025</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:20 - 02:30</div>
-          <div class="details">
-            <h3>Welcome Address</h3>
-            <p><strong>Speaker:</strong> Sister Merceditas O. Ang, SPC</p>
-            <p><strong>Position:</strong> University President, St. Paul University Philippines</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:30 - 02:40</div>
-          <div class="details">
-            <h3>Introduction of the Keynote Speaker</h3>
-            <p><strong>Speaker:</strong> Ma. Visitacion N. Gumabay, DIT</p>
-            <p><strong>Position:</strong> Program Coordinator for Information Technology</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">02:40 - 03:10</div>
-          <div class="details">
-            <h3>Keynote Speech</h3>
-            <p><strong>Speaker:</strong> Dr. Julieta M. Paras, CESO III</p>
-            <p><strong>Position:</strong> Director IV, Commission on Higher Education Region 02</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">03:10 - 03:20</div>
-          <div class="details">
-            <h3>Special Message</h3>
-            <p><strong>Speaker:</strong> Engr. Pinky T. Jimenez, PECE, PH.D.</p>
-            <p><strong>Position:</strong> Director IV - Region 2, Department of Information and Communications
-              Technology</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">03:20 - 03:30</div>
-          <div class="details">
-            <h3>Awarding of Certificate of Appreciation</h3>
-            <p><strong>Presented by:</strong> Sister Merceditas O. Ang, SPC & Dr. Agripina Maribbay</p>
-            <p><strong>Positions:</strong> University President & Vice President for Academics, St. Paul University
-              Philippines</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">03:30 - 03:40</div>
-          <div class="details">
-            <h3>Introduction of Plenary Speaker</h3>
-            <p><strong>Speaker:</strong> Engr. Nova R. Domingo, DPA</p>
-            <p><strong>Position:</strong> Faculty, School of Information Technology and Engineering</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">03:40 - 04:10</div>
-          <div class="details">
-            <h3>Topic 1: Artificial Intelligence & Robotics</h3>
-            <p><strong>Speaker:</strong> Engr. Eric Jude S. Soliman</p>
-            <p><strong>Position:</strong> President/CEO, Hytec Power Inc</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">04:10 - 04:20</div>
-          <div class="details">
-            <h3>Awarding of Certificate of Appreciation</h3>
-            <p><strong>Presented by:</strong> Sister Merceditas O. Ang, SPC & Dr. Agripina Maribbay</p>
-            <p><strong>Positions:</strong> University President & Vice President for Academics, St. Paul University
-              Philippines</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">04:20 - 04:30</div>
-          <div class="details">
-            <h3>Introduction of Plenary Speaker</h3>
-            <p><strong>Speaker:</strong> Engr. Christian Cabuatan</p>
-            <p><strong>Position:</strong> Faculty, School of Information Technology and Engineering</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">04:30 - 05:00</div>
-          <div class="details">
-            <h3>Topic 2: Climate Change and Renewable Energy</h3>
-            <p><strong>Speaker:</strong> Dr. Mary Jane Calagui</p>
-            <p><strong>Position:</strong> Professor V, Cagayan State University - Carig Campus</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">05:00 - 05:30</div>
-          <div class="details">
-            <h3>Open Forum</h3>
-            <p><strong>Location:</strong> Main Hall</p>
-          </div>
-        </div>
-      </div>
 
-      <!-- Day 2 Schedule -->
-      <div class="schedule-content" id="day2">
-        <div class="schedule-item">
-          <div class="time">08:30 - 09:00</div>
-          <div class="details">
-            <h3>Morning Coffee &amp; Networking</h3>
-            <p>Meet and greet fellow participants.</p>
-            <p><strong>Location:</strong> Networking Lounge</p>
+        <!-- Day 2 Schedule -->
+        <div class="schedule-content" id="day2">
+          <div class="schedule-item">
+            <div class="time">08:30 - 09:00</div>
+            <div class="details">
+              <h3>Morning Coffee &amp; Networking</h3>
+              <p>Meet and greet fellow participants.</p>
+              <p><strong>Location:</strong> Networking Lounge</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">09:00 - 10:00</div>
+            <div class="details">
+              <h3>Session 1: Innovations in Software Development</h3>
+              <p><strong>Speaker:</strong> John Doe</p>
+              <p>Dive into modern development practices and agile methodologies.</p>
+              <p><strong>Location:</strong> Conference Room A</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">10:00 - 10:30</div>
+            <div class="details">
+              <h3>Break</h3>
+              <p>Refreshments provided.</p>
+              <p><strong>Location:</strong> Expo Area</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">10:30 - 12:00</div>
+            <div class="details">
+              <h3>Workshop: Hands-on with New Tools</h3>
+              <p>Interactive session exploring the latest software tools.</p>
+              <p><strong>Location:</strong> Workshop Room</p>
+            </div>
           </div>
         </div>
-        <div class="schedule-item">
-          <div class="time">09:00 - 10:00</div>
-          <div class="details">
-            <h3>Session 1: Innovations in Software Development</h3>
-            <p><strong>Speaker:</strong> John Doe</p>
-            <p>Dive into modern development practices and agile methodologies.</p>
-            <p><strong>Location:</strong> Conference Room A</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">10:00 - 10:30</div>
-          <div class="details">
-            <h3>Break</h3>
-            <p>Refreshments provided.</p>
-            <p><strong>Location:</strong> Expo Area</p>
-          </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">10:30 - 12:00</div>
-          <div class="details">
-            <h3>Workshop: Hands-on with New Tools</h3>
-            <p>Interactive session exploring the latest software tools.</p>
-            <p><strong>Location:</strong> Workshop Room</p>
-          </div>
-        </div>
-      </div>
 
-      <!-- Day 3 Schedule -->
-      <div class="schedule-content" id="day3">
-        <div class="schedule-item">
-          <div class="time">09:00 - 09:30</div>
-          <div class="details">
-            <h3>Morning Recap &amp; Coffee</h3>
-            <p>Reflect on the previous days and enjoy a light breakfast.</p>
-            <p><strong>Location:</strong> Lobby</p>
+        <!-- Day 3 Schedule -->
+        <div class="schedule-content" id="day3">
+          <div class="schedule-item">
+            <div class="time">09:00 - 09:30</div>
+            <div class="details">
+              <h3>Morning Recap &amp; Coffee</h3>
+              <p>Reflect on the previous days and enjoy a light breakfast.</p>
+              <p><strong>Location:</strong> Lobby</p>
+            </div>
           </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">09:30 - 10:30</div>
-          <div class="details">
-            <h3>Panel Discussion: Industry Leaders</h3>
-            <p>Experts share insights on the state and future of tech.</p>
-            <p><strong>Location:</strong> Main Hall</p>
+          <div class="schedule-item">
+            <div class="time">09:30 - 10:30</div>
+            <div class="details">
+              <h3>Panel Discussion: Industry Leaders</h3>
+              <p>Experts share insights on the state and future of tech.</p>
+              <p><strong>Location:</strong> Main Hall</p>
+            </div>
           </div>
-        </div>
-        <div class="schedule-item">
-          <div class="time">10:30 - 11:00</div>
-          <div class="details">
-            <h3>Closing Remarks</h3>
-            <p>Final thoughts and thank-yous from the organizers.</p>
-            <p><strong>Location:</strong> Main Hall</p>
+          <div class="schedule-item">
+            <div class="time">10:30 - 11:00</div>
+            <div class="details">
+              <h3>Closing Remarks</h3>
+              <p>Final thoughts and thank-yous from the organizers.</p>
+              <p><strong>Location:</strong> Main Hall</p>
+            </div>
           </div>
         </div>
       </div>
@@ -320,161 +322,85 @@
   </section>
 
   <!-- ======= SPEAKERS SECTION ======= -->
-  <section class="speakers" id="speakers">
-    <div class="container">
-      <h2 class="section-title">
-        <img src="assets/img/speaker banner.png" alt="Hero Logo" class="banners-speaker" />
-      </h2>
-      <div class="speakers-grid">
-        <!-- Speaker Card 1 -->
-        <div class="card">
-          <img src="assets/img/Placeholder.webp" alt="James Doe" class="card-img">
-          <div class="card-body">
-            <h3 class="card-title">Engr. Eric Jude S. Soliman</h3>
-            <p class="card-text">President/CEO</p>
-            <p class="card-text">Hytec Power Inc.</p>
-            <a href="james-doe.html" class="card-link">Read more →</a>
-          </div>
-          <div class="card-footer">
-            <ul class="social-list">
-              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-            </ul>
+  <section class="speakers-section">
+    <h2 class="section-title">
+      <img src="assets/img/speaker banner.png" alt="Hero Logo" class="banners-speaker" />
+    </h2>
+    <p class="speakers-description">
+      Meet the VDS speakers, international leaders, and distinguished
+      personalities participating in this international tech event.
+    </p>
+
+
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="speaker-card">
+          <img src="assets/img/place.png" alt="Randi Zuckerberg" class="speaker-img">
+          <div class="speaker-info">
+            <h3 class="speaker-name">Engr. Eric Jude S. Soliman</h3>
+            <p class="speaker-title">President/CEO, Hytec Power Inc.</p>
           </div>
         </div>
 
-        <!-- Speaker Card 2 -->
-        <div class="card">
-          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-          <div class="card-body">
-            <h3 class="card-title">Dr. Mary Jane Calagui</h3>
-            <p class="card-text">Professor V</p>
-            <p class="card-text">Cagayan State University- Carig Campus</p>
-            <a href="sarah-doe.html" class="card-link">Read more →</a>
-          </div>
-          <div class="card-footer">
-            <ul class="social-list">
-              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-            </ul>
+        <div class="speaker-card">
+          <img src="assets/img/place.png" alt="Randi Zuckerberg" class="speaker-img">
+          <div class="speaker-info">
+            <h3 class="speaker-name">Dr. Mary Jane Calagui</h3>
+            <p class="speaker-title">Founder & CEO, Zuckerberg Media and HUG</p>
           </div>
         </div>
 
-        <!-- Speaker Card 3 -->
-        <div class="card">
-          <img src="assets/img/Placeholder.webp" alt="James Doe" class="card-img">
-          <div class="card-body">
-            <h3 class="card-title">Engr. Godofredo T. Avena</h3>
-            <p class="card-text">Head of Software Development</p>
-            <p class="card-text">
-                                  Academic Technology-Philippines
-                                  Cambridge University Press and Assessment
-                                </p>
-            <a href="james-doe.html" class="card-link">Read more →</a>
-          </div>
-          <div class="card-footer">
-            <ul class="social-list">
-              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-            </ul>
+        <div class="speaker-card">
+          <img src="assets/img/place.png" alt="Engr. Godofredo T. Avena" class="speaker-img">
+          <div class="speaker-info">
+            <h3 class="speaker-name">Engr. Godofredo T. Avena</h3>
+            <p class="speaker-title">Head of Software Development, Academic Technology-Philippines Cambridge
+              University Press and Assessment </p>
           </div>
         </div>
 
-        <!-- Speaker Card 4 -->
-        <div class="card">
-          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-          <div class="card-body">
-            <h3 class="card-title">Dr. Joey Aviles</h3>
-            <p class="card-text">Professor</p>
-            <p class="card-text">Angeles University Foundation</p>
-            <a href="sarah-doe.html" class="card-link">Read more →</a>
-          </div>
-          <div class="card-footer">
-            <ul class="social-list">
-              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-            </ul>
+        <div class="speaker-card">
+          <img src="assets/img/place.png" alt="Dr. Joey Aviles" class="speaker-img">
+          <div class="speaker-info">
+            <h3 class="speaker-name">Dr. Joey Aviles</h3>
+            <p class="speaker-title">Professor, Angeles University Foundation</p>
           </div>
         </div>
 
-        <!-- Speaker Card 5 -->
-        <div class="card">
-          <img src="assets/img/Placeholder.webp" alt="James Doe" class="card-img">
-          <div class="card-body">
-            <h3 class="card-title">Engr. Kingston S. Dela Cruz</h3>
-            <p class="card-text">Department Head </p>
-            <p class="card-text">Provincial Engineer’s Office</p>
-            <a href="james-doe.html" class="card-link">Read more →</a>
-          </div>
-          <div class="card-footer">
-            <ul class="social-list">
-              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-            </ul>
+        <div class="speaker-card">
+          <img src="assets/img/place.png" alt="Engr. Kingston S. Dela Cruz" class="speaker-img">
+          <div class="speaker-info">
+            <h3 class="speaker-name">Engr. Kingston S. Dela Cruz</h3>
+            <p class="speaker-title">Department Head, Provincial Engineer’s Office</p>
           </div>
         </div>
 
-        <!-- Speaker Card 6 -->
-        <div class="card">
-          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-          <div class="card-body">
-            <h3 class="card-title">Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
-            <p class="card-text">ASEP Past President</p>
-            <p class="card-text">ASEP</p>
-            <a href="sarah-doe.html" class="card-link">Read more →</a>
-          </div>
-          <div class="card-footer">
-            <ul class="social-list">
-              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-            </ul>
+        <div class="speaker-card">
+          <img src="assets/img/place.png" alt="Juanito D. Cunanan, F.ASEP., F.PICE." class="speaker-img">
+          <div class="speaker-info">
+            <h3 class="speaker-name">Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
+            <p class="speaker-title">ASEP Past President, ASEP</p>
           </div>
         </div>
 
-        <!-- Speaker Card 7 -->
-        <div class="card">
-          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-          <div class="card-body">
-            <h3 class="card-title">Engr. Adam C. Abinales, M. ENG., F.ASEP, P.P</h3>
-            <p class="card-text">Principal Engineer and Managing Partner</p>
-            <p class="card-text">ABINALES ASSOCIATES Engineers and Consultants</p>
-            <a href="sarah-doe.html" class="card-link">Read more →</a>
-          </div>
-          <div class="card-footer">
-            <ul class="social-list">
-              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-            </ul>
+
+
+        <div class="speaker-card">
+          <img src="assets/img/place.png" alt="Juanito D. Cunanan, F.ASEP., F.PICE." class="speaker-img">
+          <div class="speaker-info">
+            <h3 class="speaker-name">Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
+            <p class="speaker-title">ASEP Past President, ASEP</p>
           </div>
         </div>
+      </div>
 
-        <!-- Speaker Card 8 -->
-        <div class="card">
-          <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-          <div class="card-body">
-            <h3 class="card-title">Engr. John Paul Dela Rosa</h3>
-            <p class="card-text">Principal Engineer & Engineering Consultant</p>
-            <p class="card-text">Xstructures</p>
-            <a href="sarah-doe.html" class="card-link">Read more →</a>
-          </div>
-          <div class="card-footer">
-            <ul class="social-list">
-              <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-            </ul>
-          </div>
-        </div>
-
+      <div class="carousel-controls">
+        <button class="control-btn prev-btn">←</button>
+        <button class="control-btn next-btn">→</button>
       </div>
     </div>
+
+    <div class="carousel-nav"></div>
   </section>
 
   <div class="section-divider"></div>
@@ -487,8 +413,8 @@
         <img src="assets/img/prev banner.png" alt="Hero Logo" class="banners-about" />
       </h2>
       <div class="convention-grid"> -->
-        <!-- Convention 1 -->
-        <!-- <div class="video-card">
+  <!-- Convention 1 -->
+  <!-- <div class="video-card">
           <iframe src="https://www.youtube.com/embed/kuG3uTCb5a4" frameborder="0" allowfullscreen></iframe>
           <div class="video-info">
             <h3>Convention 2023</h3>
@@ -497,8 +423,8 @@
           </div>
         </div> -->
 
-        <!-- Convention 2 -->
-        <!-- <div class="video-card">
+  <!-- Convention 2 -->
+  <!-- <div class="video-card">
           <iframe src="https://www.youtube.com/embed/7BgRbv59hio" frameborder="0" allowfullscreen></iframe>
           <div class="video-info">
             <h3>Convention 2022</h3>
@@ -507,9 +433,9 @@
           </div>
         </div> -->
 
-        <!-- Convention 3 -->
-        <!-- Add more video cards as needed -->
-      <!-- </div>
+  <!-- Convention 3 -->
+  <!-- Add more video cards as needed -->
+  <!-- </div>
     </div>
   </section> -->
 
@@ -537,8 +463,7 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="40">
-              <button type="submit" value="Submit" name="register"
-                class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
             </form>
             <a href="guidelines.html#ite-con" class="guidelines-btn">View Guidelines</a>
           </div>
@@ -554,8 +479,7 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="41">
-              <button type="submit" value="Submit" name="register"
-                class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
             </form>
             <a href="guidelines.html#mobile-legends" class="guidelines-btn">View Guidelines</a>
           </div>
@@ -571,8 +495,7 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="42">
-              <button type="submit" value="Submit" name="register"
-                class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
             </form> <a href="guidelines.html#tower-building" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -587,8 +510,7 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="43">
-              <button type="submit" value="Submit" name="register"
-                class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
             </form>
             <a href="guidelines.html#bridge-building" class="guidelines-btn">View Guidelines</a>
           </div>
@@ -604,8 +526,7 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="44">
-              <button type="submit" value="Submit" name="register"
-                class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
             </form> <a href="guidelines.html#line-follower" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -620,8 +541,7 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="45">
-              <button type="submit" value="Submit" name="register"
-                class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
             </form> <a href="guidelines.html#sumobot" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -636,8 +556,7 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="46">
-              <button type="submit" value="Submit" name="register"
-                class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
             </form> <a href="guidelines.html#quizbee" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -652,8 +571,7 @@
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="47">
-              <button type="submit" value="Submit" name="register"
-                class="register-btn">Details</button>
+              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
             </form> <a href="guidelines.html#coding" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -724,14 +642,14 @@
   </script>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       // Hide navbar on scroll down past hero and show on scroll up
       let lastScrollTop = 0;
       const heroSection = document.querySelector('.hero-section');
       const heroHeight = heroSection ? heroSection.offsetHeight : 0;
       const navbar = document.querySelector('.navbar');
 
-      window.addEventListener('scroll', function() {
+      window.addEventListener('scroll', function () {
         let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
         // If we've scrolled past the hero section and we're scrolling down...
         if (currentScrollTop > heroHeight && currentScrollTop > lastScrollTop) {
@@ -742,6 +660,188 @@
         }
         lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
       });
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const carousel = document.querySelector('.carousel');
+      const container = document.querySelector('.carousel-container');
+      const cards = document.querySelectorAll('.speaker-card');
+      const prevBtn = document.querySelector('.prev-btn');
+      const nextBtn = document.querySelector('.next-btn');
+      const navContainer = document.querySelector('.carousel-nav');
+
+      // Variables for tracking drag
+      let isDragging = false;
+      let startX;
+      let startScrollLeft;
+      let autoScrollInterval;
+      let cardWidth = cards[0].offsetWidth + 24; // Width + gap
+      let scrollPosition = 0;
+      let currentPage = 0;
+
+      // Calculate how many cards to show based on container width
+      const calcCardsPerView = () => {
+        return Math.floor(container.offsetWidth / cardWidth);
+      };
+
+      // Calculate number of "pages" for navigation dots
+      const calculatePages = () => {
+        const cardsPerView = calcCardsPerView();
+        return Math.ceil(cards.length / cardsPerView);
+      };
+
+      // Create pagination dots
+      const createPaginationDots = () => {
+        navContainer.innerHTML = '';
+        const totalPages = calculatePages();
+
+        for (let i = 0; i < totalPages; i++) {
+          const dot = document.createElement('div');
+          dot.classList.add('carousel-dot');
+          if (i === 0) dot.classList.add('active');
+
+          dot.addEventListener('click', () => {
+            currentPage = i;
+            scrollToPage(i);
+            updateActiveDot();
+          });
+
+          navContainer.appendChild(dot);
+        }
+      };
+
+      // Update active dot based on current page
+      const updateActiveDot = () => {
+        const dots = document.querySelectorAll('.carousel-dot');
+        dots.forEach((dot, index) => {
+          if (index === currentPage) {
+            dot.classList.add('active');
+          } else {
+            dot.classList.remove('active');
+          }
+        });
+      };
+
+      // Scroll to specific page
+      const scrollToPage = (pageIndex) => {
+        const cardsPerView = calcCardsPerView();
+        scrollPosition = pageIndex * cardsPerView * cardWidth;
+        carousel.style.transform = `translateX(-${scrollPosition}px)`;
+        currentPage = pageIndex;
+        updateActiveDot();
+      };
+
+      // Start auto-scrolling
+      const startAutoScroll = () => {
+        stopAutoScroll(); // Clear any existing interval
+        autoScrollInterval = setInterval(() => {
+          const totalPages = calculatePages();
+          currentPage = (currentPage + 1) % totalPages;
+          scrollToPage(currentPage);
+        }, 5000); // Auto scroll every 5 seconds
+      };
+
+      // Stop auto-scrolling
+      const stopAutoScroll = () => {
+        if (autoScrollInterval) {
+          clearInterval(autoScrollInterval);
+        }
+      };
+
+      // Initialize carousel and dots
+      const initCarousel = () => {
+        cardWidth = cards[0].offsetWidth + 24; // Recalculate with current dimensions
+        createPaginationDots();
+        scrollToPage(0);
+        startAutoScroll();
+      };
+
+      // Mouse events for dragging
+      const dragStart = (e) => {
+        isDragging = true;
+        container.classList.add('dragging');
+        startX = e.pageX || e.touches[0].pageX;
+        startScrollLeft = scrollPosition;
+        stopAutoScroll();
+      };
+
+      const dragging = (e) => {
+        if (!isDragging) return;
+        const x = e.pageX || e.touches[0].pageX;
+        const delta = startX - x;
+        const newPosition = startScrollLeft + delta;
+
+        // Limit scrolling to prevent empty space
+        const maxScroll = carousel.scrollWidth - container.offsetWidth;
+        scrollPosition = Math.max(0, Math.min(newPosition, maxScroll));
+
+        carousel.style.transform = `translateX(-${scrollPosition}px)`;
+
+        // Update current page based on scroll position
+        const cardsPerView = calcCardsPerView();
+        currentPage = Math.round(scrollPosition / (cardsPerView * cardWidth));
+        updateActiveDot();
+
+        e.preventDefault();
+      };
+
+      const dragStop = () => {
+        isDragging = false;
+        container.classList.remove('dragging');
+
+        // Snap to nearest page
+        const cardsPerView = calcCardsPerView();
+        currentPage = Math.round(scrollPosition / (cardsPerView * cardWidth));
+        scrollToPage(currentPage);
+
+        // Resume auto-scrolling after a brief pause
+        setTimeout(startAutoScroll, 2000);
+      };
+
+      // Button navigation handlers
+      nextBtn.addEventListener('click', () => {
+        const totalPages = calculatePages();
+        currentPage = (currentPage + 1) % totalPages;
+        scrollToPage(currentPage);
+        stopAutoScroll();
+        setTimeout(startAutoScroll, 2000);
+      });
+
+      prevBtn.addEventListener('click', () => {
+        const totalPages = calculatePages();
+        currentPage = (currentPage - 1 + totalPages) % totalPages;
+        scrollToPage(currentPage);
+        stopAutoScroll();
+        setTimeout(startAutoScroll, 2000);
+      });
+
+      // Mouse event listeners
+      container.addEventListener('mousedown', dragStart);
+      container.addEventListener('mousemove', dragging);
+      container.addEventListener('mouseup', dragStop);
+      container.addEventListener('mouseleave', dragStop);
+
+      // Touch event listeners for mobile
+      container.addEventListener('touchstart', dragStart);
+      container.addEventListener('touchmove', dragging);
+      container.addEventListener('touchend', dragStop);
+
+      // Handle window resize
+      window.addEventListener('resize', () => {
+        // Wait for resize to complete
+        clearTimeout(window.resizeTimer);
+        window.resizeTimer = setTimeout(() => {
+          cardWidth = cards[0].offsetWidth + 24;
+          createPaginationDots();
+          scrollToPage(0);
+          currentPage = 0;
+        }, 250);
+      });
+
+      // Initialize
+      initCarousel();
     });
   </script>
 
