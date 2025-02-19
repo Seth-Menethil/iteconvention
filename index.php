@@ -99,7 +99,6 @@
   <section id="schedule" class="schedule-section">
     <div class="container">
       <h2 class="section-title">
-        <br><br>
         <img src="assets/img/sched banner.png" alt="Hero Logo" class="banners-speaker" />
       </h2>
       <div class="tabs">
@@ -323,6 +322,7 @@
   </section>
   <div class="section-divider"></div>
   <!-- ======= SPEAKERS SECTION ======= -->
+  <br><br>
   <section class="speakers-section" id="speakers">
     <h2 class="section-title">
       <img src="assets/img/speaker banner.png" alt="Hero Logo" class="banners-speaker" />
