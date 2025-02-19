@@ -323,7 +323,7 @@
   </section>
   <div class="section-divider"></div>
   <!-- ======= SPEAKERS SECTION ======= -->
-  <section class="speakers-section">
+  <section class="speakers-section" id="speakers">
     <h2 class="section-title">
       <img src="assets/img/speaker banner.png" alt="Hero Logo" class="banners-speaker" />
     </h2>
