@@ -66,7 +66,7 @@ if (isset($_POST['signup'])) {
         <input type="text" class="form-control" placeholder="Full Name" name="name" required>
         <input type="text" class="form-control" placeholder="Contact No. (Optional)" name="number">
         <select class="form-control" name="occupation" id="occupation" required>
-          <option value="">Occupation:</option>
+          <option value="">Profession:</option>
           <option value="Student">Student</option>
           <option value="Faculty">Faculty</option>
           <option value="Professional">Professional</option>
