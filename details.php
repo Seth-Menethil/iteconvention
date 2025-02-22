@@ -75,7 +75,7 @@ if ($result && mysqli_num_rows($result) > 0) {
                         </svg>
                         <div class="info-content">
                             <h4>Date & Time</h4>
-                            <p>Enter your event date and time</p>
+                            <p>TBA</p>
                         </div>
                     </div>
                     <div class="info-item">
