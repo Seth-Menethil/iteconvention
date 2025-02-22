@@ -1,5 +1,5 @@
 <?php
-require_once('../connection/connection.php');
+include('../connection/connection.php');
 session_start();
 
 $currentYear = date("Y");
@@ -34,7 +34,7 @@ $result = mysqli_fetch_assoc($query);
 if (isset($_POST['submit'])) {
   $team = $_POST['team'];
   $name = $_POST['name'];
-  $event = $_SESSION['program_id'];;
+  $event = $_SESSION['program_id'];
   $college = $result['college'];
 
   // Insert the participant data into the participant table
@@ -188,7 +188,7 @@ if (isset($_POST['submit'])) {
   </footer>
 
   <!--SCRIPTS HERE-->
-  <<!-- Include jQuery and DataTables JS -->
+  <!-- Include jQuery and DataTables JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 
