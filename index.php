@@ -383,14 +383,6 @@
         </div>
 
 
-
-        <div class="speaker-card">
-          <img src="assets/img/place.png" alt="Juanito D. Cunanan, F.ASEP., F.PICE." class="speaker-img">
-          <div class="speaker-info">
-            <h3 class="speaker-name">Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
-            <p class="speaker-title">ASEP Past President, ASEP</p>
-          </div>
-        </div>
       </div>
 
       <div class="carousel-controls">

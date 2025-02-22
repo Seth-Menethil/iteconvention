@@ -337,161 +337,75 @@ if (!isset($_SESSION['logged_in_index2'])) {
     </section>
 
     <!-- ======= SPEAKERS SECTION ======= -->
-    <section class="speakers" id="speakers">
-        <div class="container">
-            <h2 class="section-title">
-                <img src="assets/img/speaker banner.png" alt="Hero Logo" class="banners-speaker" />
-            </h2>
-            <div class="speakers-grid">
-                <!-- Speaker Card 1 -->
-                <div class="card">
-                    <img src="assets/img/Placeholder.webp" alt="James Doe" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Engr. Eric Jude S. Soliman</h3>
-                        <p class="card-text">President/CEO</p>
-                        <p class="card-text">Hytec Power Inc.</p>
-                        <a href="james-doe.html" class="card-link">Read more →</a>
-                    </div>
-                    <div class="card-footer">
-                        <ul class="social-list">
-                            <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-                        </ul>
+    <section class="speakers-section" id="speakers">
+        <h2 class="section-title">
+            <img src="assets/img/speaker banner.png" alt="Hero Logo" class="banners-speaker" />
+        </h2>
+        <p class="speakers-description">
+            Meet the ITE Con 2025 speakers participating in this regional convention.
+        </p>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="speaker-card">
+                    <img src="assets/img/place.png" alt="Randi Zuckerberg" class="speaker-img">
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Engr. Eric Jude S. Soliman</h3>
+                        <p class="speaker-title">President/CEO, Hytec Power Inc.</p>
                     </div>
                 </div>
 
-                <!-- Speaker Card 2 -->
-                <div class="card">
-                    <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Dr. Mary Jane Calagui</h3>
-                        <p class="card-text">Professor V</p>
-                        <p class="card-text">Cagayan State University- Carig Campus</p>
-                        <a href="sarah-doe.html" class="card-link">Read more →</a>
-                    </div>
-                    <div class="card-footer">
-                        <ul class="social-list">
-                            <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-                        </ul>
+                <div class="speaker-card">
+                    <img src="assets/img/place.png" alt="Randi Zuckerberg" class="speaker-img">
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Dr. Mary Jane Calagui</h3>
+                        <p class="speaker-title">Founder & CEO, Zuckerberg Media and HUG</p>
                     </div>
                 </div>
 
-                <!-- Speaker Card 3 -->
-                <div class="card">
-                    <img src="assets/img/Placeholder.webp" alt="James Doe" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Engr. Godofredo T. Avena</h3>
-                        <p class="card-text">Head of Software Development</p>
-                        <p class="card-text">
-                            Academic Technology-Philippines
-                            Cambridge University Press and Assessment
-                        </p>
-                        <a href="james-doe.html" class="card-link">Read more →</a>
-                    </div>
-                    <div class="card-footer">
-                        <ul class="social-list">
-                            <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-                        </ul>
+                <div class="speaker-card">
+                    <img src="assets/img/place.png" alt="Engr. Godofredo T. Avena" class="speaker-img">
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Engr. Godofredo T. Avena</h3>
+                        <p class="speaker-title">Head of Software Development, Academic Technology-Philippines Cambridge
+                            University Press and Assessment </p>
                     </div>
                 </div>
 
-                <!-- Speaker Card 4 -->
-                <div class="card">
-                    <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Dr. Joey Aviles</h3>
-                        <p class="card-text">Professor</p>
-                        <p class="card-text">Angeles University Foundation</p>
-                        <a href="sarah-doe.html" class="card-link">Read more →</a>
-                    </div>
-                    <div class="card-footer">
-                        <ul class="social-list">
-                            <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-                        </ul>
+                <div class="speaker-card">
+                    <img src="assets/img/place.png" alt="Dr. Joey Aviles" class="speaker-img">
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Dr. Joey Aviles</h3>
+                        <p class="speaker-title">Professor, Angeles University Foundation</p>
                     </div>
                 </div>
 
-                <!-- Speaker Card 5 -->
-                <div class="card">
-                    <img src="assets/img/Placeholder.webp" alt="James Doe" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Engr. Kingston S. Dela Cruz</h3>
-                        <p class="card-text">Department Head </p>
-                        <p class="card-text">Provincial Engineer’s Office</p>
-                        <a href="james-doe.html" class="card-link">Read more →</a>
-                    </div>
-                    <div class="card-footer">
-                        <ul class="social-list">
-                            <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-                        </ul>
+                <div class="speaker-card">
+                    <img src="assets/img/place.png" alt="Engr. Kingston S. Dela Cruz" class="speaker-img">
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Engr. Kingston S. Dela Cruz</h3>
+                        <p class="speaker-title">Department Head, Provincial Engineer’s Office</p>
                     </div>
                 </div>
 
-                <!-- Speaker Card 6 -->
-                <div class="card">
-                    <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
-                        <p class="card-text">ASEP Past President</p>
-                        <p class="card-text">ASEP</p>
-                        <a href="sarah-doe.html" class="card-link">Read more →</a>
-                    </div>
-                    <div class="card-footer">
-                        <ul class="social-list">
-                            <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-                        </ul>
+                <div class="speaker-card">
+                    <img src="assets/img/place.png" alt="Juanito D. Cunanan, F.ASEP., F.PICE." class="speaker-img">
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
+                        <p class="speaker-title">ASEP Past President, ASEP</p>
                     </div>
                 </div>
 
-                <!-- Speaker Card 7 -->
-                <div class="card">
-                    <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Engr. Adam C. Abinales, M. ENG., F.ASEP, P.P</h3>
-                        <p class="card-text">Principal Engineer and Managing Partner</p>
-                        <p class="card-text">ABINALES ASSOCIATES Engineers and Consultants</p>
-                        <a href="sarah-doe.html" class="card-link">Read more →</a>
-                    </div>
-                    <div class="card-footer">
-                        <ul class="social-list">
-                            <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Speaker Card 8 -->
-                <div class="card">
-                    <img src="assets/img/Placeholder.webp" alt="Sarah Doe" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Engr. John Paul Dela Rosa</h3>
-                        <p class="card-text">Principal Engineer & Engineering Consultant</p>
-                        <p class="card-text">Xstructures</p>
-                        <a href="sarah-doe.html" class="card-link">Read more →</a>
-                    </div>
-                    <div class="card-footer">
-                        <ul class="social-list">
-                            <li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
 
             </div>
+
+            <div class="carousel-controls">
+                <button class="control-btn prev-btn">←</button>
+                <button class="control-btn next-btn">→</button>
+            </div>
         </div>
+
+        <div class="carousel-nav"></div>
     </section>
 
     <div class="section-divider"></div>
@@ -765,6 +679,189 @@ if (!isset($_SESSION['logged_in_index2'])) {
             });
         });
     </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousel = document.querySelector('.carousel');
+            const container = document.querySelector('.carousel-container');
+            const cards = document.querySelectorAll('.speaker-card');
+            const prevBtn = document.querySelector('.prev-btn');
+            const nextBtn = document.querySelector('.next-btn');
+            const navContainer = document.querySelector('.carousel-nav');
+
+            // Variables for tracking drag
+            let isDragging = false;
+            let startX;
+            let startScrollLeft;
+            let autoScrollInterval;
+            let cardWidth = cards[0].offsetWidth + 24; // Width + gap
+            let scrollPosition = 0;
+            let currentPage = 0;
+
+            // Calculate how many cards to show based on container width
+            const calcCardsPerView = () => {
+                return Math.floor(container.offsetWidth / cardWidth);
+            };
+
+            // Calculate number of "pages" for navigation dots
+            const calculatePages = () => {
+                const cardsPerView = calcCardsPerView();
+                return Math.ceil(cards.length / cardsPerView);
+            };
+
+            // Create pagination dots
+            const createPaginationDots = () => {
+                navContainer.innerHTML = '';
+                const totalPages = calculatePages();
+
+                for (let i = 0; i < totalPages; i++) {
+                    const dot = document.createElement('div');
+                    dot.classList.add('carousel-dot');
+                    if (i === 0) dot.classList.add('active');
+
+                    dot.addEventListener('click', () => {
+                        currentPage = i;
+                        scrollToPage(i);
+                        updateActiveDot();
+                    });
+
+                    navContainer.appendChild(dot);
+                }
+            };
+
+            // Update active dot based on current page
+            const updateActiveDot = () => {
+                const dots = document.querySelectorAll('.carousel-dot');
+                dots.forEach((dot, index) => {
+                    if (index === currentPage) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+            };
+
+            // Scroll to specific page
+            const scrollToPage = (pageIndex) => {
+                const cardsPerView = calcCardsPerView();
+                scrollPosition = pageIndex * cardsPerView * cardWidth;
+                carousel.style.transform = `translateX(-${scrollPosition}px)`;
+                currentPage = pageIndex;
+                updateActiveDot();
+            };
+
+            // Start auto-scrolling
+            const startAutoScroll = () => {
+                stopAutoScroll(); // Clear any existing interval
+                autoScrollInterval = setInterval(() => {
+                    const totalPages = calculatePages();
+                    currentPage = (currentPage + 1) % totalPages;
+                    scrollToPage(currentPage);
+                }, 5000); // Auto scroll every 5 seconds
+            };
+
+            // Stop auto-scrolling
+            const stopAutoScroll = () => {
+                if (autoScrollInterval) {
+                    clearInterval(autoScrollInterval);
+                }
+            };
+
+            // Initialize carousel and dots
+            const initCarousel = () => {
+                cardWidth = cards[0].offsetWidth + 24; // Recalculate with current dimensions
+                createPaginationDots();
+                scrollToPage(0);
+                startAutoScroll();
+            };
+
+            // Mouse events for dragging
+            const dragStart = (e) => {
+                isDragging = true;
+                container.classList.add('dragging');
+                startX = e.pageX || e.touches[0].pageX;
+                startScrollLeft = scrollPosition;
+                stopAutoScroll();
+            };
+
+            const dragging = (e) => {
+                if (!isDragging) return;
+                const x = e.pageX || e.touches[0].pageX;
+                const delta = startX - x;
+                const newPosition = startScrollLeft + delta;
+
+                // Limit scrolling to prevent empty space
+                const maxScroll = carousel.scrollWidth - container.offsetWidth;
+                scrollPosition = Math.max(0, Math.min(newPosition, maxScroll));
+
+                carousel.style.transform = `translateX(-${scrollPosition}px)`;
+
+                // Update current page based on scroll position
+                const cardsPerView = calcCardsPerView();
+                currentPage = Math.round(scrollPosition / (cardsPerView * cardWidth));
+                updateActiveDot();
+
+                e.preventDefault();
+            };
+
+            const dragStop = () => {
+                isDragging = false;
+                container.classList.remove('dragging');
+
+                // Snap to nearest page
+                const cardsPerView = calcCardsPerView();
+                currentPage = Math.round(scrollPosition / (cardsPerView * cardWidth));
+                scrollToPage(currentPage);
+
+                // Resume auto-scrolling after a brief pause
+                setTimeout(startAutoScroll, 2000);
+            };
+
+            // Button navigation handlers
+            nextBtn.addEventListener('click', () => {
+                const totalPages = calculatePages();
+                currentPage = (currentPage + 1) % totalPages;
+                scrollToPage(currentPage);
+                stopAutoScroll();
+                setTimeout(startAutoScroll, 2000);
+            });
+
+            prevBtn.addEventListener('click', () => {
+                const totalPages = calculatePages();
+                currentPage = (currentPage - 1 + totalPages) % totalPages;
+                scrollToPage(currentPage);
+                stopAutoScroll();
+                setTimeout(startAutoScroll, 2000);
+            });
+
+            // Mouse event listeners
+            container.addEventListener('mousedown', dragStart);
+            container.addEventListener('mousemove', dragging);
+            container.addEventListener('mouseup', dragStop);
+            container.addEventListener('mouseleave', dragStop);
+
+            // Touch event listeners for mobile
+            container.addEventListener('touchstart', dragStart);
+            container.addEventListener('touchmove', dragging);
+            container.addEventListener('touchend', dragStop);
+
+            // Handle window resize
+            window.addEventListener('resize', () => {
+                // Wait for resize to complete
+                clearTimeout(window.resizeTimer);
+                window.resizeTimer = setTimeout(() => {
+                    cardWidth = cards[0].offsetWidth + 24;
+                    createPaginationDots();
+                    scrollToPage(0);
+                    currentPage = 0;
+                }, 250);
+            });
+
+            // Initialize
+            initCarousel();
+        });
+    </script>
+
 
 
 </body>
