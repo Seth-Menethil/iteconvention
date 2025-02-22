@@ -28,6 +28,16 @@ $sql = "SELECT * FROM signup where id = $id";
 $query = mysqli_query($con, $sql);
 $result = mysqli_fetch_assoc($query);
 
+$profession = $result['branch'];
+
+if ($profession == 'Student') {
+    $status = "style='display:none'"; // Hide the occupation field for students
+} elseif ($profession == 'Faculty') {
+    $status = '';
+} elseif ($profession == 'Professional') {
+    $status = "style='display:none'"; // Hide the occupation field for professionals
+}
+
 
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
@@ -114,10 +124,9 @@ if (isset($_POST['submit'])) {
             <div class="event-details">
                 <div class="event-header">
                     <h1 class="event-title"><?php echo $row['name']; ?></h1>
-                    <!-- <p class="event-subtitle">Event Subtitle or Tagline</p> -->
                 </div>
 
-                <button class="register-btn">Register Now</button>
+                <a href="views/contestant-registration.php"><button class="register-btn" <?php echo $status; ?>>Register Now</button></a>
 
                 <div class="info-card">
                     <h3>Event Details</h3>
@@ -177,30 +186,30 @@ if (isset($_POST['submit'])) {
             <div id="copy-notice">Link Copied!</div>
 
             <!-- Registration Modal -->
-            <div class="modal" id="register-modal">
+            <!-- <div class="modal" id="register-modal">
                 <div class="modal-content">
                     <span class="close-btn">&times;</span>
                     <h2 style="color:#073854;">Register for the Event</h2>
                     <form method="post">
                         <label for="name">Full Name:</label>
-                        <input type="text" id="name" value="<?= $result['name']; ?>" name="name" required>
+                        <input type="text" id="name" value="" name="name" required>
 
-                        <input type="hidden" id="contact" value="<?= $result['phone']; ?>" name="phone" required>
+                        <input type="hidden" id="contact" value="" name="phone" required>
 
                         <label for="occupation">Occupation:</label>
-                        <select id="occupation" value="<?= $result['branch']; ?>" name="branch" required>
+                        <select id="occupation" value="" name="branch" required>
                             <option value="Student">Student</option>
                             <option value="Faculty">Faculty</option>
                             <option value="Professional">Professional</option>
                         </select>
 
                         <label for="school">School/Organization & Team <br> (Ex. St. Paul University Philippines - Team A):</label>
-                        <input type="text" id="school" value="<?= $result['college']; ?>" name="college" required>
+                        <input type="text" id="school" value="" name="college" required>
 
                         <button type="submit" value="submit" name="submit">Submit</button>
                     </form>
                 </div>
-            </div>
+            </div> -->
 
 
             <div class="footer-right">
@@ -297,25 +306,25 @@ if (isset($_POST['submit'])) {
             });
 
             // Modal for Registration
-            const registerBtn = document.querySelector('.register-btn');
-            const modal = document.getElementById('register-modal');
-            const modalContent = document.querySelector('.modal-content');
-            const closeModal = document.querySelector('.close-btn');
+            // const registerBtn = document.querySelector('.register-btn');
+            // const modal = document.getElementById('register-modal');
+            // const modalContent = document.querySelector('.modal-content');
+            // const closeModal = document.querySelector('.close-btn');
 
-            registerBtn.addEventListener('click', function() {
-                modal.classList.add('show');
-            });
+            // registerBtn.addEventListener('click', function() {
+            //     modal.classList.add('show');
+            // });
 
-            closeModal.addEventListener('click', function() {
-                modal.classList.remove('show');
-            });
+            // closeModal.addEventListener('click', function() {
+            //     modal.classList.remove('show');
+            // });
 
-            // Close modal if user clicks outside of it
-            window.addEventListener('click', function(event) {
-                if (event.target === modal) {
-                    modal.classList.remove('show');
-                }
-            });
+            // // Close modal if user clicks outside of it
+            // window.addEventListener('click', function(event) {
+            //     if (event.target === modal) {
+            //         modal.classList.remove('show');
+            //     }
+            // });
         });
     </script>
 
