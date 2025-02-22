@@ -62,8 +62,7 @@ if ($result && mysqli_num_rows($result) > 0) {
             <div class="event-details">
                 <div class="event-header">
                     <h1 class="event-title"><?php echo $row['name']; ?></h1>
-                    <p class="event-subtitle">Event Subtitle or Tagline</p>
-                </div>
+\                </div>
 
                 <div class="info-card">
                     <h3>Event Details</h3>
