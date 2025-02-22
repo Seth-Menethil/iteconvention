@@ -4,6 +4,9 @@ session_start();
 
 $currentYear = date("Y");
 
+$query = "SELECT * FROM institutions ORDER BY institution ASC";
+$result = $con->query($query);
+
 if (isset($_POST['signup'])) {
   $name = $_POST['name'];
   $email = $_POST['email'];
@@ -65,13 +68,24 @@ if (isset($_POST['signup'])) {
       <form method="POST">
         <input type="text" class="form-control" placeholder="Full Name" name="name" required>
         <input type="text" class="form-control" placeholder="Contact No. (Optional)" name="number">
+        
         <select class="form-control" name="occupation" id="occupation" required>
           <option value="">Profession:</option>
           <option value="Student">Student</option>
           <option value="Faculty">Faculty</option>
           <option value="Professional">Professional</option>
         </select>
-        <input type="text" class="form-control" placeholder="School / Organization (ex. St. Paul University Philipines)" name="school" required>
+
+        <select class="form-control" name="school" required>
+          <option value="">Select School / Organization</option>
+          <?php
+          if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+              echo '<option value="' . htmlspecialchars($row['institution']) . '">' . htmlspecialchars($row['institution']) . '</option>';
+            }
+          }
+          ?>
+        </select>
 
         <input type="email" class="form-control" placeholder="Email" name="email" required>
         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password" required>
