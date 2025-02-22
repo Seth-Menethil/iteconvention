@@ -86,7 +86,7 @@ if ($profession == 'Student') {
             <div class="event-details">
                 <div class="event-header">
                     <h1 class="event-title"><?php echo $row['name']; ?></h1>
-                    <p class="event-subtitle">Only Faculty Members is allowed to Register their School's Participants</p>
+                    <p class="event-subtitle">Only Faculty Members are allowed to Register their School's Event Contestants</p>
                 </div>
 
                 <a href="views/contestant-registration.php"><button class="register-btn" <?php echo $status; ?>>Register Now</button></a>
