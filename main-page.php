@@ -1,6 +1,5 @@
-
-//THis is a comment
 <?php
+//THis is a comment
 require_once('connection/connection.php'); //connect to the databse
 session_start();
 
