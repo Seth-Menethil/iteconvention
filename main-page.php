@@ -472,7 +472,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <button type="submit" value="Submit" name="register"
                                 class="register-btn">Details</button>
                         </form>
-                        <a href="guidelines.html#ite-con" class="guidelines-btn">View Guidelines</a>
+                        <a href="https://drive.google.com/file/d/1Ux_V10SWujnF25VXWjYZixKeozhvcYfl/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
 
@@ -489,7 +489,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <button type="submit" value="Submit" name="register"
                                 class="register-btn">Details</button>
                         </form>
-                        <a href="guidelines.html#mobile-legends" class="guidelines-btn">View Guidelines</a>
+                        <a href="#" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
 
@@ -506,7 +506,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <button type="submit" value="Submit" name="register"
                                 class="register-btn">Details</button>
                         </form>
-                        <a href="guidelines.html#tower-building" class="guidelines-btn">View Guidelines</a>
+                        <a href="https://drive.google.com/file/d/1YfoFd06INuLZ1TJR6eIlUDZBRUU7xhDZ/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
 
@@ -523,7 +523,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <button type="submit" value="Submit" name="register"
                                 class="register-btn">Details</button>
                         </form>
-                        <a href="guidelines.html#bridge-building" class="guidelines-btn">View Guidelines</a>
+                        <a href="https://drive.google.com/file/d/1YfoFd06INuLZ1TJR6eIlUDZBRUU7xhDZ/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
 
@@ -540,7 +540,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <button type="submit" value="Submit" name="register"
                                 class="register-btn">Details</button>
                         </form>
-                        <a href="guidelines.html#line-follower" class="guidelines-btn">View Guidelines</a>
+                        <a href="https://drive.google.com/file/d/1570gRdCTkG28-emBMWd-thA9EGZEXNvv/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
 
@@ -557,7 +557,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <button type="submit" value="Submit" name="register"
                                 class="register-btn">Details</button>
                         </form>
-                        <a href="guidelines.html#sumobot" class="guidelines-btn">View Guidelines</a>
+                        <a href="https://drive.google.com/file/d/1570gRdCTkG28-emBMWd-thA9EGZEXNvv/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
 
@@ -574,7 +574,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <button type="submit" value="Submit" name="register"
                                 class="register-btn">Details</button>
                         </form>
-                        <a href="guidelines.html#quizbee" class="guidelines-btn">View Guidelines</a>
+                        <a href="#" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
 
@@ -591,7 +591,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <button type="submit" value="Submit" name="register"
                                 class="register-btn">Details</button>
                         </form>
-                        <a href="guidelines.html#coding" class="guidelines-btn">View Guidelines</a>
+                        <a href="https://drive.google.com/file/d/1CvB8VnmCBmNGBin7yf1Hu0Ii_3UwFsxW/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
                     </div>
                 </div>
             </div>
