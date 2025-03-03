@@ -533,7 +533,7 @@
           <p>For Computer Science participants. Battle with your robot!</p>
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
-              <input type="hidden" name="program_id" value="44">
+              <input type="hidden" name="program_id" value="45">
               <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
           </div>
           <a href="guidelines.html#line-follower" class="guidelines-btn">View Guidelines</a>
