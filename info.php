@@ -10,12 +10,12 @@ if (!isset($_SESSION['logged_in_index2'])) {
 }
 
 if (isset($_POST['program_id'])) {
-    $_SESSION['program_id'] = $_POST['program_id'];
+    $program_id = $_POST['program_id'];
 } else {
     echo "<script>alart( 'There is an Error' )</script>";
 }
 
-$program_id = $_SESSION['program_id'];
+
 
 $query = "SELECT * FROM program WHERE program_id = $program_id";
 $result = mysqli_query($con, $query);

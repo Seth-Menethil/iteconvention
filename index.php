@@ -487,7 +487,7 @@
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="42">
               <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
-            </form> 
+            </form>
             <a href="https://drive.google.com/file/d/1YfoFd06INuLZ1TJR6eIlUDZBRUU7xhDZ/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -519,7 +519,7 @@
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="44">
               <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
-            </form> 
+            </form>
             <a href="https://drive.google.com/file/d/1570gRdCTkG28-emBMWd-thA9EGZEXNvv/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -532,11 +532,13 @@
           <h3>Sumobot</h3>
           <p>For Computer Science participants. Battle with your robot!</p>
           <div class="button-group">
-            <form action="details.php" method="POST" class="register_form text-center">
-              <input type="hidden" name="program_id" value="">
-              <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
+            <form action="info.php" method="POST" class="register_form text-center">
+              <input type="hidden" name="program_id" value="45">
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
+            </form>
+            <a href="https://drive.google.com/file/d/1570gRdCTkG28-emBMWd-thA9EGZEXNvv/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
           </div>
-          <a href="guidelines.html#line-follower" class="guidelines-btn">View Guidelines</a>
         </div>
 
         <!-- Competition Card 7: Quizbee for Engineering -->
@@ -565,7 +567,7 @@
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="47">
               <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
-            </form> 
+            </form>
             <a href="https://drive.google.com/file/d/1CvB8VnmCBmNGBin7yf1Hu0Ii_3UwFsxW/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
@@ -636,14 +638,14 @@
   </script>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
       // Hide navbar on scroll down past hero and show on scroll up
       let lastScrollTop = 0;
       const heroSection = document.querySelector('.hero-section');
       const heroHeight = heroSection ? heroSection.offsetHeight : 0;
       const navbar = document.querySelector('.navbar');
 
-      window.addEventListener('scroll', function () {
+      window.addEventListener('scroll', function() {
         let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
         // If we've scrolled past the hero section and we're scrolling down...
         if (currentScrollTop > heroHeight && currentScrollTop > lastScrollTop) {
