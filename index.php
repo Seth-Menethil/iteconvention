@@ -552,7 +552,7 @@
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="46">
               <button type="submit" value="Submit" name="register" class="register-btn">Details</button>
-            </form> <a href="#" class="guidelines-btn">View Guidelines</a>
+            </form> <a href="https://drive.google.com/file/d/15L7JegVE1UgK7gvOA5st31JOXsbOQOy7/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
 
