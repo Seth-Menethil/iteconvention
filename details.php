@@ -163,10 +163,10 @@ if ($result && mysqli_num_rows($result) > 0) {
                 </div>
             </div>
         </div>
-        <div class="dev-note">
+        <!-- <div class="dev-note">
             design made with 💜 by Serafin Gazzingan<br>
             jgazzingan@spup.edu.ph
-        </div>
+        </div> -->
     </footer>
 
 
