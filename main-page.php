@@ -350,7 +350,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
         <div class="carousel-container">
             <div class="carousel">
                 <div class="speaker-card">
-                    <img src="assets/img/Eng. nova.jpg" alt="Engr. Joseph Nova" class="speaker-img">
+                    <img src="assets/images/speakers/Engr_Joseph.png" alt="Engr. Joseph Nova" class="speaker-img">
                     <div class="speaker-info">
                         <h3 class="speaker-name">Engr. Joseph Nova</h3>
                         <p class="speaker-title">Sales and Technical Consultant Engineer, Red Gutz OPC</p>
@@ -358,7 +358,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                 </div>
 
                 <div class="speaker-card">
-                    <img src="assets/img/Dr Calagui.png" alt="Dr. Mary Jane Calagui" class="speaker-img">
+                    <img src="assets/images/speakers/Dr_Calagui.png" alt="Dr. Mary Jane Calagui" class="speaker-img">
                     <div class="speaker-info">
                         <h3 class="speaker-name">Dr. Mary Jane Calagui</h3>
                         <p class="speaker-title">Professor V, Cagayan State University- Carig Campus</p>
@@ -366,7 +366,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                 </div>
 
                 <div class="speaker-card">
-                    <img src="assets/img/place.png" alt="Engr. Godofredo T. Avena" class="speaker-img">
+                    <img src="assets/images/speakers/Dr_Avena.png" alt="Engr. Godofredo T. Avena" class="speaker-img">
                     <div class="speaker-info">
                         <h3 class="speaker-name">Engr. Godofredo T. Avena</h3>
                         <p class="speaker-title">Head of Software Development, Academic Technology-Philippines Cambridge
@@ -375,7 +375,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                 </div>
 
                 <div class="speaker-card">
-                    <img src="assets/img/Dr. Aviles.jpg" alt="Dr. Joey Aviles" class="speaker-img">
+                    <img src="assets/images/speakers/Dr_Aviles.png" alt="Dr. Joey Aviles" class="speaker-img">
                     <div class="speaker-info">
                         <h3 class="speaker-name">Dr. Joey Aviles</h3>
                         <p class="speaker-title">Professor, Angeles University Foundation</p>
