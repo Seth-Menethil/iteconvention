@@ -4,10 +4,12 @@ session_start();
 
 $currentYear = date("Y");
 
-if (isset($_SESSION['program_id'])) {
-  $program_id = $_SESSION['program_id'];
+
+
+if (isset($_POST['program_id'])) {
+  $_SESSION['program_id'] = $_POST['program_id'];
 } else {
-  echo "<script>alert('An Error ahs occured')</script>";
+  echo "<script>alert('An Error has occured')</script>";
 }
 
 // Check if the form is submitted
@@ -189,102 +191,102 @@ if (isset($_POST['submit'])) {
 
   <!--SCRIPTS HERE-->
   <!-- Include jQuery and DataTables JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 
-    <script>
-      $(document).ready(function() {
-        $('#paymentsTable').DataTable({
-          "paging": false, // Enables pagination
-          "searching": false, // Enables search
-          "ordering": true, // Enables column sorting
-          "info": false, // Show table info
-          "scrollY": "300px", // Makes table vertically scrollable
-          "scrollCollapse": true
-        });
+  <script>
+    $(document).ready(function() {
+      $('#paymentsTable').DataTable({
+        "paging": false, // Enables pagination
+        "searching": false, // Enables search
+        "ordering": true, // Enables column sorting
+        "info": false, // Show table info
+        "scrollY": "300px", // Makes table vertically scrollable
+        "scrollCollapse": true
       });
-    </script>
+    });
+  </script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script>
-      $(document).ready(function() {
-        $(".delete-btn").click(function() {
-          var participantId = $(this).data("id"); // Get ID from button
-          var row = $(this).closest("tr"); // Select row for removal
+  <script>
+    $(document).ready(function() {
+      $(".delete-btn").click(function() {
+        var participantId = $(this).data("id"); // Get ID from button
+        var row = $(this).closest("tr"); // Select row for removal
 
-          if (confirm("Are you sure you want to delete this participant?")) {
-            $.ajax({
-              url: "../function/delete.php",
-              type: "POST",
-              data: {
-                id: participantId
-              },
-              success: function(response) {
-                if (response.trim() === "success") {
-                  row.fadeOut(500, function() {
-                    $(this).remove();
-                  }); // Remove row smoothly
-                } else {
-                  alert("Error deleting participant.");
-                }
-              }
-            });
-          }
-        });
-      });
-    </script>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <script>
-      $(document).ready(function() {
-        // Open Edit Modal with existing data
-        $(".edit-btn").click(function() {
-          var id = $(this).data("id");
-          var name = $(this).data("name");
-          var team = $(this).data("team");
-
-          $("#edit-id").val(id);
-          $("#edit-name").val(name);
-          $("#edit-team").val(team); // Pre-select the correct team
-          $("#editModal").modal("show");
-        });
-
-        // Handle Update Form Submission via AJAX
-        $("#editForm").submit(function(event) {
-          event.preventDefault();
-
-          var id = $("#edit-id").val();
-          var name = $("#edit-name").val();
-          var team = $("#edit-team").val(); // Get selected team from dropdown
-
+        if (confirm("Are you sure you want to delete this participant?")) {
           $.ajax({
-            url: "../function/update.php",
+            url: "../function/delete.php",
             type: "POST",
             data: {
-              id: id,
-              name: name,
-              team: team
+              id: participantId
             },
             success: function(response) {
               if (response.trim() === "success") {
-                alert("Participant updated successfully!");
-                location.reload(); // Refresh page to update table
+                row.fadeOut(500, function() {
+                  $(this).remove();
+                }); // Remove row smoothly
               } else {
-                alert("Error updating participant.");
+                alert("Error deleting participant.");
               }
             }
           });
+        }
+      });
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      // Open Edit Modal with existing data
+      $(".edit-btn").click(function() {
+        var id = $(this).data("id");
+        var name = $(this).data("name");
+        var team = $(this).data("team");
+
+        $("#edit-id").val(id);
+        $("#edit-name").val(name);
+        $("#edit-team").val(team); // Pre-select the correct team
+        $("#editModal").modal("show");
+      });
+
+      // Handle Update Form Submission via AJAX
+      $("#editForm").submit(function(event) {
+        event.preventDefault();
+
+        var id = $("#edit-id").val();
+        var name = $("#edit-name").val();
+        var team = $("#edit-team").val(); // Get selected team from dropdown
+
+        $.ajax({
+          url: "../function/update.php",
+          type: "POST",
+          data: {
+            id: id,
+            name: name,
+            team: team
+          },
+          success: function(response) {
+            if (response.trim() === "success") {
+              alert("Participant updated successfully!");
+              location.reload(); // Refresh page to update table
+            } else {
+              alert("Error updating participant.");
+            }
+          }
         });
       });
-    </script>
+    });
+  </script>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="assets/JS/signup.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="assets/JS/signup.js"></script>
 
 
 </body>
