@@ -6,8 +6,8 @@ $currentYear = date("Y");
 
 
 
-if (isset($_POST['program_id'])) {
-  $_SESSION['program_id'] = $_POST['program_id'];
+if (isset($_SESSION['program_id'])) {
+  $program = $_SESSION['program_id'];
 } else {
   echo "<script>alert('An Error has occured')</script>";
 }
