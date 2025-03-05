@@ -350,15 +350,15 @@ if (!isset($_SESSION['logged_in_index2'])) {
         <div class="carousel-container">
             <div class="carousel">
                 <div class="speaker-card">
-                    <img src="assets/img/place.png" alt="Randi Zuckerberg" class="speaker-img">
+                    <img src="assets/img/place.png" alt="Engr. Joseph Nova" class="speaker-img">
                     <div class="speaker-info">
-                        <h3 class="speaker-name">Engr. Eric Jude S. Soliman</h3>
-                        <p class="speaker-title">President/CEO, Hytec Power Inc.</p>
+                        <h3 class="speaker-name">Engr. Joseph Nova</h3>
+                        <p class="speaker-title">Sales and Technical Consultant Engineer, Red Gutz OPC</p>
                     </div>
                 </div>
 
                 <div class="speaker-card">
-                    <img src="assets/img/Dr Calagui.png" alt="Randi Zuckerberg" class="speaker-img">
+                    <img src="assets/img/Dr Calagui.png" alt="Dr. Mary Jane Calagui" class="speaker-img">
                     <div class="speaker-info">
                         <h3 class="speaker-name">Dr. Mary Jane Calagui</h3>
                         <p class="speaker-title">Founder & CEO, Zuckerberg Media and HUG</p>
