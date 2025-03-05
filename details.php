@@ -219,7 +219,7 @@ if ($result && mysqli_num_rows($result) > 0) {
             shareBtn.addEventListener('click', function() {
                 // Copy event link to clipboard
                 const dummyInput = document.createElement('input');
-                dummyInput.value = window.location.href;
+                dummyInput.value = "https://iteconvention.com/index.php#competitions";
                 document.body.appendChild(dummyInput);
                 dummyInput.select();
                 document.execCommand('copy');
