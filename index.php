@@ -342,7 +342,7 @@
         </div>
 
         <div class="speaker-card">
-          <img src="assets/img/place.png" alt="Randi Zuckerberg" class="speaker-img">
+          <img src="assets/img/Dr Calagui.png" alt="Dr. Mary Jane Calagui" class="speaker-img">
           <div class="speaker-info">
             <h3 class="speaker-name">Dr. Mary Jane Calagui</h3>
             <p class="speaker-title">Founder & CEO, Zuckerberg Media and HUG</p>
@@ -359,7 +359,7 @@
         </div>
 
         <div class="speaker-card">
-          <img src="assets/img/place.png" alt="Dr. Joey Aviles" class="speaker-img">
+          <img src="assets/img/Dr. Aviles.jpg" alt="Dr. Joey Aviles" class="speaker-img">
           <div class="speaker-info">
             <h3 class="speaker-name">Dr. Joey Aviles</h3>
             <p class="speaker-title">Professor, Angeles University Foundation</p>
