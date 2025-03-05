@@ -361,7 +361,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <img src="assets/img/Dr Calagui.png" alt="Dr. Mary Jane Calagui" class="speaker-img">
                     <div class="speaker-info">
                         <h3 class="speaker-name">Dr. Mary Jane Calagui</h3>
-                        <p class="speaker-title">Founder & CEO, Zuckerberg Media and HUG</p>
+                        <p class="speaker-title">Professor V, Cagayan State University- Carig Campus</p>
                     </div>
                 </div>
 
