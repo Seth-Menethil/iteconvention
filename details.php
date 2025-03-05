@@ -48,7 +48,7 @@ if ($result && mysqli_num_rows($result) > 0) {
             <!-- Left Column -->
             <div>
                 <div class="event-banner">
-                    <img src="assets/img/bg_prev.png" alt="Event banner">
+                    <img src="<?php echo $row['image']; ?>" alt="Event banner">
                 </div>
                 <div class="description">
                     <h2>Description</h2>
@@ -60,7 +60,7 @@ if ($result && mysqli_num_rows($result) > 0) {
             <div class="event-details">
                 <div class="event-header">
                     <h1 class="event-title"><?php echo $row['name']; ?></h1>
-\                </div>
+               </div>
 
                 <div class="info-card">
                     <h3>Event Details</h3>

@@ -74,7 +74,7 @@ if ($profession == 'Student') {
             <!-- Left Column -->
             <div>
                 <div class="event-banner">
-                    <img src="assets/img/bg_prev.png" alt="Event banner">
+                    <img src="<?php echo $row['image']; ?>" alt="Event banner">
                 </div>
                 <div class="description">
                     <h2>Description</h2>
