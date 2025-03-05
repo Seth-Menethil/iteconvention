@@ -350,7 +350,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
         <div class="carousel-container">
             <div class="carousel">
                 <div class="speaker-card">
-                    <img src="assets/img/place.png" alt="Engr. Joseph Nova" class="speaker-img">
+                    <img src="assets/img/Eng. nova.jpg" alt="Engr. Joseph Nova" class="speaker-img">
                     <div class="speaker-info">
                         <h3 class="speaker-name">Engr. Joseph Nova</h3>
                         <p class="speaker-title">Sales and Technical Consultant Engineer, Red Gutz OPC</p>
