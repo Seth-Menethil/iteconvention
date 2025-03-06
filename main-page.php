@@ -293,15 +293,19 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         <div class="time">09:30 - 10:30</div>
                         <div class="details">
                             <h3>Awarding of Certificates</h3>
-                            <p><strong>Presented by:</strong>Marifel Grace C. Kummer, DIT</p>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT</p>
                             <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
+                            <p><strong>Presented by:</strong> Ma. Visitacion N. Gumabay, DIT</p>
+                            <p><strong>Position:</strong> Program Coordinator for Information Technology
+                                School of Information Technology and Engineering
+                            </p>
                         </div>
                     </div>
                     <div class="schedule-item">
                         <div class="time">10:30 - 11:30</div>
                         <div class="details">
                             <h3>Topic 2: Internet Of Things</h3>
-                            <p><strong>Speaker:</strong> DR. Rocela Angelica B. Gorospe, PCpE</p>
+                            <p><strong>Speaker:</strong> Dr. Rocela Angelica B. Gorospe, PCpE</p>
                             <p><strong>Position:</strong> Provincial Director, DOST-Quirino
                             </p>
                         </div>
@@ -311,8 +315,39 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         <div class="details">
                             <h3>Open Forum & Awarding of Certificates</h3>
                             <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT</p>
+                            <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
                         </div>
                     </div>
+
+                    <!-- Afternoon Day 2 -->
+                    <div class="schedule-item">
+                        <div class="time">01:00 - 01:30</div>
+                        <div class="details">
+                            <h3>Registration &amp; Opening Prayer</h3>
+                            <p><strong>Lead by:</strong> Gabriel Tong</p>
+                            <p><strong>Position:</strong> BSIT 2 Student</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">01:30 - 02:30</div>
+                        <div class="details">
+                            <h3>Topic 3: Cloud Computing</h3>
+                            <p><strong>Speaker:</strong> Engr. Godofredo T. Avena</p>
+                            <p><strong>Position:</strong> Head of Software Development
+                                Academic Technology-Philippines
+                                Cambridge University Press and Assessment
+                            </p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">02:30 - 02:45</div>
+                        <div class="details">
+                            <h3> Health Break &amp; Awarding of Certificates</h3>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT</p>
+                            <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <!-- Day 3 Schedule -->
