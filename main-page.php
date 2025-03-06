@@ -293,12 +293,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         <div class="time">09:30 - 10:30</div>
                         <div class="details">
                             <h3>Awarding of Certificates</h3>
-                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT</p>
-                            <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
-                            <p><strong>Presented by:</strong> Ma. Visitacion N. Gumabay, DIT</p>
-                            <p><strong>Position:</strong> Program Coordinator for Information Technology
-                                School of Information Technology and Engineering
-                            </p>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Ma. Visitacion N. Gumabay, DIT</p>
                         </div>
                     </div>
                     <div class="schedule-item">
@@ -314,8 +309,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         <div class="time">11:30 - 12:00</div>
                         <div class="details">
                             <h3>Open Forum & Awarding of Certificates</h3>
-                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT</p>
-                            <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Ma. Visitacion N. Gumabay, DIT</p>
                         </div>
                     </div>
 
@@ -343,8 +337,32 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         <div class="time">02:30 - 02:45</div>
                         <div class="details">
                             <h3> Health Break &amp; Awarding of Certificates</h3>
-                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT</p>
-                            <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Ma. Visitacion N. Gumabay, DIT</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">02:45 - 03:00</div>
+                        <div class="details">
+                            <h3> BREAK-OUT SESSION (WORKSHOP) </h3>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">03:00 - 05:30</div>
+                        <div class="details">
+                            <h3>Topic 4: Machine Learning (LR102)</h3>
+                            <p><strong>Speaker:</strong> Dr. Joey Aviles</p>
+                            <p><strong>Position:</strong> Professor
+                                Angeles University Foundation
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">05:30 - 06:00</div>
+                        <div class="details">
+                            <h3>Awarding of Certificates and Closing Prayer</h3>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Ma. Visitacion N. Gumabay, DIT</p>
+
                         </div>
                     </div>
 
