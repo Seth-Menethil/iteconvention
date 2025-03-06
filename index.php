@@ -215,8 +215,8 @@
             <div class="time">03:40 - 04:10</div>
             <div class="details">
               <h3>Topic 1: Artificial Intelligence & Robotics</h3>
-              <p><strong>Speaker:</strong> Engr. Eric Jude S. Soliman</p>
-              <p><strong>Position:</strong> President/CEO, Hytec Power Inc</p>
+              <p><strong>Speaker:</strong> Engr. Joseph Nova</p>
+              <p><strong>Position:</strong>Sales and Technical Consultant Engineer, Red Gutz OPC</p>
             </div>
           </div>
           <div class="schedule-item">
