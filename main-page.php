@@ -282,7 +282,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <div class="schedule-item">
                         <div class="time">08:00 - 09:30</div>
                         <div class="details">
-                            <h3>Topic 1: CYBERSECURITY</h3>
+                            <h3>Topic 1: CyberSecurity</h3>
                             <p><strong>Speaker:</strong> Victor V. Lorenzo, CPA</p>
                             <p><strong>Position:</strong> Assistant Regional Director
                                 National Bureau of Investigation
