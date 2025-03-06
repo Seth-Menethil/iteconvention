@@ -119,9 +119,9 @@ if (!isset($_SESSION['logged_in_index2'])) {
                 <img src="assets/img/sched banner.png" alt="Hero Logo" class="banners-speaker" />
             </h2>
             <div class="tabs">
-                <button class="tab active" data-day="day1">Day 1<br>(Registration)</button>
-                <button class="tab" data-day="day2">Day 2<br>(Conference)</button>
-                <!-- <button class="tab" data-day="day3">Day 3<br>(Closing)</button> -->
+                <button class="tab active" data-day="day1">Day 1</button>
+                <button class="tab" data-day="day2">Day 2</button>
+                <button class="tab" data-day="day3">Day 3</button>
             </div>
 
             <div class="schedule-container">
@@ -354,7 +354,6 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <p><strong>Position:</strong> Professor
                                 Angeles University Foundation
                             </p>
-
                         </div>
                     </div>
                     <div class="schedule-item">
@@ -440,6 +439,22 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <div class="speaker-info">
                         <h3 class="speaker-name">Dr. Joey Aviles</h3>
                         <p class="speaker-title">Professor, Angeles University Foundation</p>
+                    </div>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="assets/images/speakers/Dr_Gorospe.png" alt="Dr. Rocela Angelica B. Gorospe, PCpE" class="speaker-img">
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Dr. Rocela Angelica B. Gorospe, PCpE</h3>
+                        <p class="speaker-title">Provincial Director, DOST-Quirino</p>
+                    </div>
+                </div>
+
+                <div class="speaker-card">
+                    <img src="assets/images/speakers/Engr_Abinales.png" alt="Engr. Adam C. Abinales, M. ENG., F.ASEP, P.P" class="speaker-img">
+                    <div class="speaker-info">
+                        <h3 class="speaker-name">Engr. Adam C. Abinales, M. ENG., F.ASEP, P.P</h3>
+                        <p class="speaker-title">Managing Partner and Principal Engineer, Abinales Associates Engineers + Consultants </p>
                     </div>
                 </div>
 

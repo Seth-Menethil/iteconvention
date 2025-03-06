@@ -367,6 +367,22 @@
         </div>
 
         <div class="speaker-card">
+          <img src="assets/images/speakers/Dr_Gorospe.png" alt="Dr. Rocela Angelica B. Gorospe, PCpE" class="speaker-img">
+          <div class="speaker-info">
+            <h3 class="speaker-name">Dr. Rocela Angelica B. Gorospe, PCpE</h3>
+            <p class="speaker-title">Provincial Director, DOST-Quirino</p>
+          </div>
+        </div>
+
+        <div class="speaker-card">
+          <img src="assets/images/speakers/Engr_Abinales.png" alt="Engr. Adam C. Abinales, M. ENG., F.ASEP, P.P" class="speaker-img">
+          <div class="speaker-info">
+            <h3 class="speaker-name">Engr. Adam C. Abinales, M. ENG., F.ASEP, P.P</h3>
+            <p class="speaker-title">Managing Partner and Principal Engineer, Abinales Associates Engineers + Consultants </p>
+          </div>
+        </div>
+
+        <div class="speaker-card">
           <img src="assets/img/place.png" alt="Engr. Kingston S. Dela Cruz" class="speaker-img">
           <div class="speaker-info">
             <h3 class="speaker-name">Engr. Kingston S. Dela Cruz</h3>
