@@ -120,8 +120,8 @@ if (!isset($_SESSION['logged_in_index2'])) {
             </h2>
             <div class="tabs">
                 <button class="tab active" data-day="day1">Day 1<br>(Registration)</button>
-                <!-- <button class="tab" data-day="day2">Day 2<br>(Conference)</button>
-        <button class="tab" data-day="day3">Day 3<br>(Closing)</button> -->
+                <button class="tab" data-day="day2">Day 2<br>(Conference)</button>
+                <!-- <button class="tab" data-day="day3">Day 3<br>(Closing)</button> -->
             </div>
 
             <div class="schedule-container">
@@ -273,36 +273,44 @@ if (!isset($_SESSION['logged_in_index2'])) {
                 <!-- Day 2 Schedule -->
                 <div class="schedule-content" id="day2">
                     <div class="schedule-item">
-                        <div class="time">08:30 - 09:00</div>
+                        <div class="time">07:30 - 08:00</div>
                         <div class="details">
-                            <h3>Morning Coffee &amp; Networking</h3>
-                            <p>Meet and greet fellow participants.</p>
-                            <p><strong>Location:</strong> Networking Lounge</p>
+                            <h3>Registration &amp; Opening Prayer</h3>
+                            <p><strong>Location:</strong> Sacred Heart of Jesus Training Center </p>
                         </div>
                     </div>
                     <div class="schedule-item">
-                        <div class="time">09:00 - 10:00</div>
+                        <div class="time">08:00 - 09:30</div>
                         <div class="details">
-                            <h3>Session 1: Innovations in Software Development</h3>
-                            <p><strong>Speaker:</strong> John Doe</p>
-                            <p>Dive into modern development practices and agile methodologies.</p>
-                            <p><strong>Location:</strong> Conference Room A</p>
+                            <h3>Topic 1: CYBERSECURITY</h3>
+                            <p><strong>Speaker:</strong> Victor V. Lorenzo, CPA</p>
+                            <p><strong>Position:</strong> Assistant Regional Director
+                                National Bureau of Investigation
+                            </p>
                         </div>
                     </div>
                     <div class="schedule-item">
-                        <div class="time">10:00 - 10:30</div>
+                        <div class="time">09:30 - 10:30</div>
                         <div class="details">
-                            <h3>Break</h3>
-                            <p>Refreshments provided.</p>
-                            <p><strong>Location:</strong> Expo Area</p>
+                            <h3>Awarding of Certificates</h3>
+                            <p><strong>Presented by:</strong>Marifel Grace C. Kummer, DIT</p>
+                            <p><strong>Position:</strong> Dean, School of Information Technology and Engineering</p>
                         </div>
                     </div>
                     <div class="schedule-item">
-                        <div class="time">10:30 - 12:00</div>
+                        <div class="time">10:30 - 11:30</div>
                         <div class="details">
-                            <h3>Workshop: Hands-on with New Tools</h3>
-                            <p>Interactive session exploring the latest software tools.</p>
-                            <p><strong>Location:</strong> Workshop Room</p>
+                            <h3>Topic 2: Internet Of Things</h3>
+                            <p><strong>Speaker:</strong> DR. Rocela Angelica B. Gorospe, PCpE</p>
+                            <p><strong>Position:</strong> Provincial Director, DOST-Quirino
+                            </p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">11:30 - 12:00</div>
+                        <div class="details">
+                            <h3>Open Forum & Awarding of Certificates</h3>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT</p>
                         </div>
                     </div>
                 </div>
