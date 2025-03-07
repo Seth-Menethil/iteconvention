@@ -306,8 +306,11 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         <div class="details">
                             <h3>Topic 2: Internet Of Things</h3>
                             <p><strong>Speaker:</strong> Dr. Rocela Angelica B. Gorospe, PCpE</p>
-                            <p><strong>Position:</strong> Provincial Director, DOST-Quirino
-                            </p>
+                            <p><strong>Position:</strong> Provincial Director, DOST-Quirino</p>
+                            <br>
+                            <h3>Topic 2: Green Building Design</h3>
+                            <p><strong>Speaker:</strong> Engr. Kingston S. Dela Cruz</p>
+                            <p><strong>Position:</strong> Department Head, Provincial Engineer’s Office</p>
                         </div>
                     </div>
                     <div class="schedule-item">
@@ -323,8 +326,6 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         <div class="time">01:00 - 01:30</div>
                         <div class="details">
                             <h3>Registration &amp; Opening Prayer</h3>
-                            <p><strong>Lead by:</strong> Gabriel Tong</p>
-                            <p><strong>Position:</strong> BSIT 2 Student</p>
                         </div>
                     </div>
                     <div class="schedule-item">
@@ -475,7 +476,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     <img src="assets/img/place.png" alt="Juanito D. Cunanan, F.ASEP., F.PICE." class="speaker-img">
                     <div class="speaker-info">
                         <h3 class="speaker-name">Engr. Juanito D. Cunanan, F.ASEP., F.PICE.</h3>
-                        <p class="speaker-title">ASEP Former President, ASEP</p>
+                        <p class="speaker-title">ASEP Past President, ASEP</p>
                     </div>
                 </div>
 
