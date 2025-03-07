@@ -20,6 +20,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
     <meta charset="UTF-8" />
     <title>ITE Convention '25</title>
     <!-- Include fonts, icons, and CSS resets if you like -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="assets/style/main.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="logout.js"></script>
