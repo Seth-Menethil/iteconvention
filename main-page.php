@@ -386,27 +386,32 @@ if (!isset($_SESSION['logged_in_index2'])) {
                 <!-- Day 3 Schedule -->
                 <div class="schedule-content" id="day3">
                     <div class="schedule-item">
-                        <div class="time">09:00 - 09:30</div>
+                        <div class="time">07:30 - 08:00</div>
                         <div class="details">
-                            <h3>Morning Recap &amp; Coffee</h3>
-                            <p>Reflect on the previous days and enjoy a light breakfast.</p>
-                            <p><strong>Location:</strong> Lobby</p>
+                            <h3>Registration & Opening Prayer</h3>
+                            <p><strong>To be lead by:</strong> Janell Tong</p>
+                            <p><strong>Position:</strong> BSIT 3 Student</p>
                         </div>
                     </div>
                     <div class="schedule-item">
-                        <div class="time">09:30 - 10:30</div>
+                        <div class="time">08:00 - 12:00</div>
                         <div class="details">
-                            <h3>Panel Discussion: Industry Leaders</h3>
-                            <p>Experts share insights on the state and future of tech.</p>
-                            <p><strong>Location:</strong> Main Hall</p>
+                            <h3>Contest Proper</h3>
+                            <br>
+                            <p><strong>ITE-CON-INNOVATE :</strong> Global Center</p>
+                            <p><strong>GENERAL PROGRAMMING :</strong> LR 103</p>
+                            <p><strong>MOBILE LEGENDS :</strong> LR 105 & LR 106</p>
+                            <p><strong>TOWER BUILDING :</strong> STUDENT CENTER</p>
+                            <p><strong>BRIDGE BUILDING :</strong> STUDENT CENTER</p>
+                            <p><strong>LINE FOLLOWER ROBOT & SUMOBOT :</strong> STUDENT CENTER</p>
+                            <p><strong>QUIZ-BEE FOR ENGINEERING :</strong> MULTIMEDIA SCIENCE LABORATORY </p>
+                            <p><strong>QUIZ-BEE FOR ENGINEERING :</strong> MULTIMEDIA SCIENCE LABORATORY </p>
                         </div>
                     </div>
                     <div class="schedule-item">
-                        <div class="time">10:30 - 11:00</div>
+                        <div class="time">Afternoon</div>
                         <div class="details">
-                            <h3>Closing Remarks</h3>
-                            <p>Final thoughts and thank-yous from the organizers.</p>
-                            <p><strong>Location:</strong> Main Hall</p>
+                            <h3>Awarding and Closing Prayer</h3>
                         </div>
                     </div>
                 </div>
