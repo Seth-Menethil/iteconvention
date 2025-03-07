@@ -530,7 +530,7 @@
             <i class="fas fa-robot"></i>
           </div>
           <h3>Line Follower Robot</h3>
-          <p>For Computer Science participants. Build and program a line-following robot!</p>
+          <p>Contestants will build and program a line-following robot!</p>
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="44">
@@ -546,7 +546,7 @@
             <i class="fas fa-microchip"></i>
           </div>
           <h3>Sumobot</h3>
-          <p>For Computer Science participants. Battle with your robot!</p>
+          <p>Contestants will build and battle with their robots!</p>
           <div class="button-group">
             <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="45">
