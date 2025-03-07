@@ -397,7 +397,6 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         <div class="time">08:00 - 12:00</div>
                         <div class="details">
                             <h3>Contest Proper</h3>
-                            <br>
                             <p><strong>ITE-CON-INNOVATE :</strong> Global Center</p>
                             <p><strong>GENERAL PROGRAMMING :</strong> LR 103</p>
                             <p><strong>MOBILE LEGENDS :</strong> LR 105 & LR 106</p>
