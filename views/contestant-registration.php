@@ -4,7 +4,7 @@ session_start();
 
 $currentYear = date("Y");
 
-if (!isset($_SESSION['profession']) && $_SESSION['profession'] != "Faculty") {
+if (!isset($_SESSION['profession']) || $_SESSION['profession'] != "Faculty") {
   echo '<script>alert("You do not have permission to access this Page!");</script>';
   echo '<script>window.location.href = "../main-page.php";</script>';
 }
