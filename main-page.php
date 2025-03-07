@@ -288,7 +288,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <p><strong>Position:</strong> Assistant Regional Director
                                 National Bureau of Investigation
                             </p>
-
+                            <br>
                             <h3>Topic 1: Role Of Engineers During Disasters</h3>
                             <p><strong>Speaker:</strong> Engr. Juanito D. Cunanan, F.ASEP., F.PICE</p>
                             <p><strong>Position:</strong> ASEP Past President</p>
