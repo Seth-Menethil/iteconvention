@@ -611,9 +611,9 @@
       <!-- Right Side: Links & Social Media -->
       <div class="footer-right">
         <div class="footer-links">
-          <a href="contact.html">Contact</a>
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="terms.html">Terms of Service</a>
+          <a href="https://spup.edu.ph/school-of-information-technology-and-engineering/">Contact</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
         </div>
         <div class="footer-social">
           <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
