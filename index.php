@@ -104,7 +104,7 @@
       <div class="tabs">
         <button class="tab active" data-day="day1">Day 1</button>
         <button class="tab" data-day="day2">Day 2</button>
-        <button class="tab" data-day="day3">Day 3</button>
+        <!-- <button class="tab" data-day="day3">Day 3</button> -->
       </div>
 
       <div class="schedule-container">
