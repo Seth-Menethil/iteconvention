@@ -104,7 +104,7 @@ if ($profession == 'Student') {
                         </svg>
                         <div class="info-content">
                             <h4>Date & Time</h4>
-                            <p>TBA</p>
+                            <p>March 28, 2025 - 08:00 AM to 12:00 PM</p>
                         </div>
                     </div>
                     <div class="info-item">
