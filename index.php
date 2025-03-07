@@ -104,7 +104,7 @@
       <div class="tabs">
         <button class="tab active" data-day="day1">Day 1</button>
         <button class="tab" data-day="day2">Day 2</button>
-        <!-- <button class="tab" data-day="day3">Day 3</button> -->
+        <button class="tab" data-day="day3">Day 3</button>
       </div>
 
       <div class="schedule-container">
@@ -270,6 +270,10 @@
               <p><strong>Position:</strong> Assistant Regional Director
                 National Bureau of Investigation
               </p>
+              <br>
+              <h3>Topic 1: Role Of Engineers During Disasters</h3>
+              <p><strong>Speaker:</strong> Engr. Juanito D. Cunanan, F.ASEP., F.PICE</p>
+              <p><strong>Position:</strong> ASEP Past President</p>
             </div>
           </div>
           <div class="schedule-item">
@@ -284,8 +288,11 @@
             <div class="details">
               <h3>Topic 2: Internet Of Things</h3>
               <p><strong>Speaker:</strong> Dr. Rocela Angelica B. Gorospe, PCpE</p>
-              <p><strong>Position:</strong> Provincial Director, DOST-Quirino
-              </p>
+              <p><strong>Position:</strong> Provincial Director, DOST-Quirino</p>
+              <br>
+              <h3>Topic 2: Green Building Design</h3>
+              <p><strong>Speaker:</strong> Engr. Kingston S. Dela Cruz</p>
+              <p><strong>Position:</strong> Department Head, Provincial Engineer’s Office</p>
             </div>
           </div>
           <div class="schedule-item">
@@ -301,8 +308,6 @@
             <div class="time">01:00 - 01:30</div>
             <div class="details">
               <h3>Registration &amp; Opening Prayer</h3>
-              <p><strong>Lead by:</strong> Gabriel Tong</p>
-              <p><strong>Position:</strong> BSIT 2 Student</p>
             </div>
           </div>
           <div class="schedule-item">
@@ -313,6 +318,12 @@
               <p><strong>Position:</strong> Head of Software Development
                 Academic Technology-Philippines
                 Cambridge University Press and Assessment
+              </p>
+              <br>
+              <h3>Topic 3: Sustainable Strategies in Design, Construction, and Operation of Infrastructure</h3>
+              <p><strong>Speaker:</strong> Engr. Adam C. Abinales, M.Eng., F.ASEP, P.P.</p>
+              <p><strong>Position:</strong> Principal Engineer and Managing
+                Partner of ABINALES ASSOCIATES Engineers and Consultants
               </p>
             </div>
           </div>
@@ -337,6 +348,10 @@
               <p><strong>Position:</strong> Professor
                 Angeles University Foundation
               </p>
+              <br>
+              <h3>Topic 4: Computer Software for Engineers(LR 105-106)</h3>
+              <p><strong>Speaker:</strong> Engr. John Paul Dela Rosa</p>
+              <p><strong>Position:</strong> Principal Engineer</p>
             </div>
           </div>
           <div class="schedule-item">
@@ -353,27 +368,31 @@
         <!-- Day 3 Schedule -->
         <div class="schedule-content" id="day3">
           <div class="schedule-item">
-            <div class="time">09:00 - 09:30</div>
+            <div class="time">07:30 - 08:00</div>
             <div class="details">
-              <h3>Morning Recap &amp; Coffee</h3>
-              <p>Reflect on the previous days and enjoy a light breakfast.</p>
-              <p><strong>Location:</strong> Lobby</p>
+              <h3>Registration & Opening Prayer</h3>
+              <p><strong>To be lead by:</strong> Janell Tong</p>
+              <p><strong>Position:</strong> BSIT 3 Student</p>
             </div>
           </div>
           <div class="schedule-item">
-            <div class="time">09:30 - 10:30</div>
+            <div class="time">08:00 - 12:00</div>
             <div class="details">
-              <h3>Panel Discussion: Industry Leaders</h3>
-              <p>Experts share insights on the state and future of tech.</p>
-              <p><strong>Location:</strong> Main Hall</p>
+              <h3>Contest Proper</h3>
+              <p><strong>ITE-CON-INNOVATE :</strong> Global Center</p>
+              <p><strong>General Programming :</strong> LR 103</p>
+              <p><strong>Mobile Legends :</strong> LR 105 & LR 106</p>
+              <p><strong>Tower Building :</strong> Student Center</p>
+              <p><strong>Bridge Building :</strong> Student Center</p>
+              <p><strong>Line Follower Robot & Sumobot :</strong> Student Center</p>
+              <p><strong>Quiz-Bee For Engineering :</strong> Multimedia Science Laboratory </p>
+              <p><strong>Quiz-Bee For Engineering :</strong> Multimedia Science Laboratory </p>
             </div>
           </div>
           <div class="schedule-item">
-            <div class="time">10:30 - 11:00</div>
+            <div class="time">Afternoon</div>
             <div class="details">
-              <h3>Closing Remarks</h3>
-              <p>Final thoughts and thank-yous from the organizers.</p>
-              <p><strong>Location:</strong> Main Hall</p>
+              <h3>Awarding and Closing Prayer</h3>
             </div>
           </div>
         </div>

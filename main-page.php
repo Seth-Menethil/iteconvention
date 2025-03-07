@@ -398,13 +398,13 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         <div class="details">
                             <h3>Contest Proper</h3>
                             <p><strong>ITE-CON-INNOVATE :</strong> Global Center</p>
-                            <p><strong>GENERAL PROGRAMMING :</strong> LR 103</p>
-                            <p><strong>MOBILE LEGENDS :</strong> LR 105 & LR 106</p>
-                            <p><strong>TOWER BUILDING :</strong> STUDENT CENTER</p>
-                            <p><strong>BRIDGE BUILDING :</strong> STUDENT CENTER</p>
-                            <p><strong>LINE FOLLOWER ROBOT & SUMOBOT :</strong> STUDENT CENTER</p>
-                            <p><strong>QUIZ-BEE FOR ENGINEERING :</strong> MULTIMEDIA SCIENCE LABORATORY </p>
-                            <p><strong>QUIZ-BEE FOR ENGINEERING :</strong> MULTIMEDIA SCIENCE LABORATORY </p>
+                            <p><strong>General Programming :</strong> LR 103</p>
+                            <p><strong>Mobile Legends :</strong> LR 105 & LR 106</p>
+                            <p><strong>Tower Building :</strong> Student Center</p>
+                            <p><strong>Bridge Building :</strong> Student Center</p>
+                            <p><strong>Line Follower Robot & Sumobot :</strong> Student Center</p>
+                            <p><strong>Quiz-Bee For Engineering :</strong> Multimedia Science Laboratory </p>
+                            <p><strong>Quiz-Bee For Engineering :</strong> Multimedia Science Laboratory </p>
                         </div>
                     </div>
                     <div class="schedule-item">
