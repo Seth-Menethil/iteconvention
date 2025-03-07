@@ -337,6 +337,12 @@ if (!isset($_SESSION['logged_in_index2'])) {
                                 Academic Technology-Philippines
                                 Cambridge University Press and Assessment
                             </p>
+                            <br>
+                            <h3>Topic 3: Sustainable Strategies in Design, Construction, and Operation of Infrastructure</h3>
+                            <p><strong>Speaker:</strong> Engr. Adam C. Abinales, M.Eng., F.ASEP, P.P.</p>
+                            <p><strong>Position:</strong> Principal Engineer and Managing
+                                Partner of ABINALES ASSOCIATES Engineers and Consultants
+                            </p>
                         </div>
                     </div>
                     <div class="schedule-item">
@@ -360,6 +366,10 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <p><strong>Position:</strong> Professor
                                 Angeles University Foundation
                             </p>
+                            <br>
+                            <h3>Topic 4: Computer Software for Engineers(LR 105-106)</h3>
+                            <p><strong>Speaker:</strong> Engr. John Paul Dela Rosa</p>
+                            <p><strong>Position:</strong> Principal Engineer</p>
                         </div>
                     </div>
                     <div class="schedule-item">
