@@ -3,7 +3,7 @@ require_once('connection/connection.php'); //connect to the databse
 session_start();
 $currentYear = date("Y");
 
-if (!isset($_SESSION['logged_in_index2'])) {
+if (!isset($_SESSION['logged_in_index2']) || !isset($_SESSION['user_id'])) {
     // Redirect to index2.php if the user hasn't logged in through index2.php
     header('Location: signin.php');
     exit;
