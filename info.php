@@ -67,7 +67,7 @@ if ($profession == 'Student') {
         <a href="#home" class="logo">
             <img src="assets/img/logo_new_main.png" alt="Your Conference Logo">
         </a>
-        <a href="main-page.php" class="btn btn-ticket">Go Back</a>
+        <a href="https://iteconvention.com/main-page.php#competitions" class="btn btn-ticket">Go Back</a>
     </nav>
 
     <br><br><br><br>

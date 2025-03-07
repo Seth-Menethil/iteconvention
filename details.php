@@ -40,7 +40,7 @@ if ($result && mysqli_num_rows($result) > 0) {
         <a href="#home" class="logo">
             <img src="assets/img/logo_new_main.png" alt="Your Conference Logo">
         </a>
-        <a href="index.php" class="btn btn-ticket">Go Back</a>
+        <a href="https://iteconvention.com/index.php#competitions" class="btn btn-ticket">Go Back</a>
     </nav>
 
     <br><br><br><br>
