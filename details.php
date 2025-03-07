@@ -120,31 +120,6 @@ if ($result && mysqli_num_rows($result) > 0) {
             <!-- Floating Notification for Link Copy -->
             <div id="copy-notice">Link Copied!</div>
 
-            <!-- Registration Modal -->
-            <div class="modal" id="register-modal">
-                <div class="modal-content">
-                    <span class="close-btn">&times;</span>
-                    <h2 style="color:#073854;">Register for the Event</h2>
-                    <form>
-                        <label for="name">Full Name:</label>
-                        <input type="text" id="name" required>
-
-                        <label for="email">Contact:</label>
-                        <input type="email" id="email" required>
-
-                        <label for="occupation">Occupation:</label>
-                        <select name="occupation" id="occupation">
-                            <option value="Student">Student</option>
-                            <option value="Faculty">Faculty</option>
-                            <option value="Professional">Professional</option>
-                        </select>
-
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-            </div>
-
-
             <div class="footer-right">
                 <div class="footer-links">
                     <a href="contact.html">Contact</a>

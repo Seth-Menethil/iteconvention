@@ -31,6 +31,8 @@ $result = mysqli_fetch_assoc($query);
 
 $profession = $result['branch'];
 
+$_SESSION['profession'] = $profession;
+
 if ($profession == 'Student') {
     $status = "style='display:none'"; // Hide the occupation field for students
 } elseif ($profession == 'Faculty') {
