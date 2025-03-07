@@ -102,9 +102,9 @@
         <img src="assets/img/sched banner.png" alt="Hero Logo" class="banners-speaker" />
       </h2>
       <div class="tabs">
-        <button class="tab active" data-day="day1">Day 1<br>(Registration)</button>
-        <!-- <button class="tab" data-day="day2">Day 2<br>(Conference)</button>
-        <button class="tab" data-day="day3">Day 3<br>(Closing)</button> -->
+        <button class="tab active" data-day="day1">Day 1</button>
+        <button class="tab" data-day="day2">Day 2</button>
+        <button class="tab" data-day="day3">Day 3</button>
       </div>
 
       <div class="schedule-container">
@@ -256,38 +256,98 @@
         <!-- Day 2 Schedule -->
         <div class="schedule-content" id="day2">
           <div class="schedule-item">
-            <div class="time">08:30 - 09:00</div>
+            <div class="time">07:30 - 08:00</div>
             <div class="details">
-              <h3>Morning Coffee &amp; Networking</h3>
-              <p>Meet and greet fellow participants.</p>
-              <p><strong>Location:</strong> Networking Lounge</p>
+              <h3>Registration &amp; Opening Prayer</h3>
+              <p><strong>Location:</strong> Sacred Heart of Jesus Training Center </p>
             </div>
           </div>
           <div class="schedule-item">
-            <div class="time">09:00 - 10:00</div>
+            <div class="time">08:00 - 09:30</div>
             <div class="details">
-              <h3>Session 1: Innovations in Software Development</h3>
-              <p><strong>Speaker:</strong> John Doe</p>
-              <p>Dive into modern development practices and agile methodologies.</p>
-              <p><strong>Location:</strong> Conference Room A</p>
+              <h3>Topic 1: CyberSecurity</h3>
+              <p><strong>Speaker:</strong> Victor V. Lorenzo, CPA</p>
+              <p><strong>Position:</strong> Assistant Regional Director
+                National Bureau of Investigation
+              </p>
             </div>
           </div>
           <div class="schedule-item">
-            <div class="time">10:00 - 10:30</div>
+            <div class="time">09:30 - 10:30</div>
             <div class="details">
-              <h3>Break</h3>
-              <p>Refreshments provided.</p>
-              <p><strong>Location:</strong> Expo Area</p>
+              <h3>Awarding of Certificates</h3>
+              <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Ma. Visitacion N. Gumabay, DIT</p>
             </div>
           </div>
           <div class="schedule-item">
-            <div class="time">10:30 - 12:00</div>
+            <div class="time">10:30 - 11:30</div>
             <div class="details">
-              <h3>Workshop: Hands-on with New Tools</h3>
-              <p>Interactive session exploring the latest software tools.</p>
-              <p><strong>Location:</strong> Workshop Room</p>
+              <h3>Topic 2: Internet Of Things</h3>
+              <p><strong>Speaker:</strong> Dr. Rocela Angelica B. Gorospe, PCpE</p>
+              <p><strong>Position:</strong> Provincial Director, DOST-Quirino
+              </p>
             </div>
           </div>
+          <div class="schedule-item">
+            <div class="time">11:30 - 12:00</div>
+            <div class="details">
+              <h3>Open Forum & Awarding of Certificates</h3>
+              <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Ma. Visitacion N. Gumabay, DIT</p>
+            </div>
+          </div>
+
+          <!-- Afternoon Day 2 -->
+          <div class="schedule-item">
+            <div class="time">01:00 - 01:30</div>
+            <div class="details">
+              <h3>Registration &amp; Opening Prayer</h3>
+              <p><strong>Lead by:</strong> Gabriel Tong</p>
+              <p><strong>Position:</strong> BSIT 2 Student</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">01:30 - 02:30</div>
+            <div class="details">
+              <h3>Topic 3: Cloud Computing</h3>
+              <p><strong>Speaker:</strong> Engr. Godofredo T. Avena</p>
+              <p><strong>Position:</strong> Head of Software Development
+                Academic Technology-Philippines
+                Cambridge University Press and Assessment
+              </p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">02:30 - 02:45</div>
+            <div class="details">
+              <h3> Health Break &amp; Awarding of Certificates</h3>
+              <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Ma. Visitacion N. Gumabay, DIT</p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">02:45 - 03:00</div>
+            <div class="details">
+              <h3> BREAK-OUT SESSION (WORKSHOP) </h3>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">03:00 - 05:30</div>
+            <div class="details">
+              <h3>Topic 4: Machine Learning (LR102)</h3>
+              <p><strong>Speaker:</strong> Dr. Joey Aviles</p>
+              <p><strong>Position:</strong> Professor
+                Angeles University Foundation
+              </p>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="time">05:30 - 06:00</div>
+            <div class="details">
+              <h3>Awarding of Certificates and Closing Prayer</h3>
+              <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Ma. Visitacion N. Gumabay, DIT</p>
+
+            </div>
+          </div>
+
         </div>
 
         <!-- Day 3 Schedule -->
