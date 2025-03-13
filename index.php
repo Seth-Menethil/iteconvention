@@ -455,8 +455,8 @@
               <p><strong>Tower Building :</strong> Student Center</p>
               <p><strong>Bridge Building :</strong> Student Center</p>
               <p><strong>Line Follower Robot & Sumobot :</strong> Student Center</p>
-              <p><strong>Quiz-Bee For Engineering :</strong> Multimedia Science Laboratory </p>
-              <p><strong>Quiz-Bee For Engineering :</strong> Multimedia Science Laboratory </p>
+              <p><strong>Quiz-Bee For IT :</strong> MM Hall </p>
+              <p><strong>Quiz-Bee For Engineering :</strong> SP Multimedia Science Laboratory </p>
             </div>
           </div>
           <div class="schedule-item">
