@@ -121,7 +121,8 @@ if (!isset($_SESSION['logged_in_index2'])) {
             </h2>
             <div class="tabs">
                 <button class="tab active" data-day="day1">Day 1</button>
-                <button class="tab" data-day="day2">Day 2</button>
+                <button class="tab" data-day="dayit2">Day 2 (IT)</button>
+                <button class="tab" data-day="dayengr2">Day 2 (Engineering)</button>
                 <button class="tab" data-day="day3">Day 3</button>
             </div>
 
@@ -271,8 +272,8 @@ if (!isset($_SESSION['logged_in_index2'])) {
                     </div>
                 </div>
 
-                <!-- Day 2 Schedule -->
-                <div class="schedule-content" id="day2">
+                <!-- Day 2 Schedule IT-->
+                <div class="schedule-content" id="dayit2">
                     <div class="schedule-item">
                         <div class="time">07:30 - 08:00</div>
                         <div class="details">
@@ -288,10 +289,6 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <p><strong>Position:</strong> Assistant Regional Director
                                 National Bureau of Investigation
                             </p>
-                            <br>
-                            <h3>Topic 1: Role Of Engineers During Disasters</h3>
-                            <p><strong>Speaker:</strong> Engr. Juanito D. Cunanan, F.ASEP., F.PICE</p>
-                            <p><strong>Position:</strong> ASEP Past President</p>
                         </div>
                     </div>
                     <div class="schedule-item">
@@ -307,10 +304,6 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <h3>Topic 2: Internet Of Things</h3>
                             <p><strong>Speaker:</strong> Dr. Rocela Angelica B. Gorospe, PCpE</p>
                             <p><strong>Position:</strong> Provincial Director, DOST-Quirino</p>
-                            <br>
-                            <h3>Topic 2: Green Building Design</h3>
-                            <p><strong>Speaker:</strong> Engr. Kingston S. Dela Cruz</p>
-                            <p><strong>Position:</strong> Department Head, Provincial Engineer’s Office</p>
                         </div>
                     </div>
                     <div class="schedule-item">
@@ -337,12 +330,6 @@ if (!isset($_SESSION['logged_in_index2'])) {
                                 Academic Technology-Philippines
                                 Cambridge University Press and Assessment
                             </p>
-                            <br>
-                            <h3>Topic 3: Sustainable Strategies in Design, Construction, and Operation of Infrastructure</h3>
-                            <p><strong>Speaker:</strong> Engr. Adam C. Abinales, M.Eng., F.ASEP, P.P.</p>
-                            <p><strong>Position:</strong> Principal Engineer and Managing
-                                Partner of ABINALES ASSOCIATES Engineers and Consultants
-                            </p>
                         </div>
                     </div>
                     <div class="schedule-item">
@@ -366,10 +353,6 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <p><strong>Position:</strong> Professor
                                 Angeles University Foundation
                             </p>
-                            <br>
-                            <h3>Topic 4: Computer Software for Engineers(LR 105-106)</h3>
-                            <p><strong>Speaker:</strong> Engr. John Paul Dela Rosa</p>
-                            <p><strong>Position:</strong> Principal Engineer</p>
                         </div>
                     </div>
                     <div class="schedule-item">
@@ -381,6 +364,93 @@ if (!isset($_SESSION['logged_in_index2'])) {
                         </div>
                     </div>
 
+                </div>
+
+                <!-- Day 2 Schedule Engineering-->
+                <div class="schedule-content" id="dayengr2">
+                    <div class="schedule-item">
+                        <div class="time">07:30 - 08:00</div>
+                        <div class="details">
+                            <h3>Registration &amp; Opening Prayer</h3>
+                            <p><strong>Location:</strong> Sacred Heart of Jesus Training Center </p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">08:00 - 09:30</div>
+                        <div class="details">
+                            <h3>Topic 1: Role Of Engineers During Disasters</h3>
+                            <p><strong>Speaker:</strong> Engr. Juanito D. Cunanan, F.ASEP., F.PICE</p>
+                            <p><strong>Position:</strong> ASEP Past President</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">09:30 - 10:30</div>
+                        <div class="details">
+                            <h3>Awarding of Certificates</h3>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Engr. Cirilo Mar Pat M. Gazzingan III, MP</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">10:30 - 11:30</div>
+                        <div class="details">
+                            <h3>Topic 2: Green Building Design</h3>
+                            <p><strong>Speaker:</strong> Engr. Kingston S. Dela Cruz</p>
+                            <p><strong>Position:</strong> Department Head, Provincial Engineer’s Office</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">11:30 - 12:00</div>
+                        <div class="details">
+                            <h3>Open Forum & Awarding of Certificates</h3>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Engr. Cirilo Mar Pat M. Gazzingan III, MP</p>
+                        </div>
+                    </div>
+
+                    <!-- Afternoon Day 2 -->
+                    <div class="schedule-item">
+                        <div class="time">01:00 - 01:30</div>
+                        <div class="details">
+                            <h3>Registration &amp; Opening Prayer</h3>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">01:30 - 02:30</div>
+                        <div class="details">
+                            <h3>Topic 3: Sustainable Strategies in Design, Construction, and Operation of Infrastructure</h3>
+                            <p><strong>Speaker:</strong> Engr. Adam C. Abinales, M.Eng., F.ASEP, P.P.</p>
+                            <p><strong>Position:</strong> Principal Engineer and Managing
+                                Partner of ABINALES ASSOCIATES Engineers and Consultants
+                            </p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">02:30 - 02:45</div>
+                        <div class="details">
+                            <h3> Health Break &amp; Awarding of Certificates</h3>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Engr. Cirilo Mar Pat M. Gazzingan III, MP</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">02:45 - 03:00</div>
+                        <div class="details">
+                            <h3> BREAK-OUT SESSION (WORKSHOP) </h3>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">03:00 - 05:30</div>
+                        <div class="details">
+                            <h3>Topic 4: Computer Software for Engineers(LR 105-106)</h3>
+                            <p><strong>Speaker:</strong> Engr. John Paul Dela Rosa</p>
+                            <p><strong>Position:</strong> Principal Engineer</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">05:30 - 06:00</div>
+                        <div class="details">
+                            <h3>Awarding of Certificates and Closing Prayer</h3>
+                            <p><strong>Presented by:</strong> Marifel Grace C. Kummer, DIT & Engr. Cirilo Mar Pat M. Gazzingan III, MP</p>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Day 3 Schedule -->
@@ -403,8 +473,8 @@ if (!isset($_SESSION['logged_in_index2'])) {
                             <p><strong>Tower Building :</strong> Student Center</p>
                             <p><strong>Bridge Building :</strong> Student Center</p>
                             <p><strong>Line Follower Robot & Sumobot :</strong> Student Center</p>
-                            <p><strong>Quiz-Bee For Engineering :</strong> Multimedia Science Laboratory </p>
-                            <p><strong>Quiz-Bee For Engineering :</strong> Multimedia Science Laboratory </p>
+                            <p><strong>Quiz-Bee For IT :</strong> MM Hall </p>
+                            <p><strong>Quiz-Bee For Engineering :</strong> SP Multimedia Science Laboratory </p>
                         </div>
                     </div>
                     <div class="schedule-item">
