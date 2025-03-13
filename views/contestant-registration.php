@@ -9,8 +9,6 @@ if (!isset($_SESSION['profession']) || $_SESSION['profession'] != "Faculty") {
   echo '<script>window.location.href = "../main-page.php";</script>';
 }
 
-
-
 if (isset($_SESSION['program_id'])) {
   $program = $_SESSION['program_id'];
 } else {
