@@ -744,7 +744,7 @@
           <h3>Quiz Bee for IT</h3>
           <p>For IT participants. Test your knowledge!</p>
           <div class="button-group">
-            <form action="info.php" method="POST" class="register_form text-center">
+            <form action="details.php" method="POST" class="register_form text-center">
               <input type="hidden" name="program_id" value="48">
               <button type="submit" value="Submit" name="register"
                 class="register-btn">Details</button>
