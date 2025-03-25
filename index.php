@@ -736,6 +736,22 @@
             <a href="https://drive.google.com/file/d/1GAEHDbLTUEPHkjaeVAzJe3DrB9XGG2I3/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
           </div>
         </div>
+
+        <div class="competition-card">
+          <div class="icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Quiz Bee for IT</h3>
+          <p>For IT participants. Test your knowledge!</p>
+          <div class="button-group">
+            <form action="info.php" method="POST" class="register_form text-center">
+              <input type="hidden" name="program_id" value="48">
+              <button type="submit" value="Submit" name="register"
+                class="register-btn">Details</button>
+            </form>
+            <a href="https://drive.google.com/file/d/1hLmuyhDnkv12JIA0GaBOw7Im0X77CseK/view?usp=drive_link" class="guidelines-btn">View Guidelines</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
