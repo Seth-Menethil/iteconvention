@@ -724,7 +724,7 @@
         <!-- Competition Card 8: Coding Competition -->
         <div class="competition-card">
           <div class="icon">
-            <i class="fas fa-code"></i>
+            <i class="fas fa-graduation-cap"></i>
           </div>
           <h3>Coding Competition</h3>
           <p>For IT participants. Test your coding skills!</p>

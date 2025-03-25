@@ -763,7 +763,7 @@ if (!isset($_SESSION['logged_in_index2'])) {
 
                 <div class="competition-card">
                     <div class="icon">
-                        <i class="fas fa-code"></i>
+                        <i class="fas fa-graduation-cap"></i>
                     </div>
                     <h3>Quiz Bee for IT</h3>
                     <p>For IT participants. Test your knowledge!</p>
